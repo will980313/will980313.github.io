@@ -1,8 +1,8 @@
 {
   "lang": "en",
-  "name": "Hydejack",
-  "short_name": "Hydejack",
-  "description": "",
+  "name": "Starter Kit",
+  "short_name": "Starter Kit",
+  "description": "Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.",
   "start_url": "/?utm_source=homescreen",
   "theme_color": "rgb(25,55,71)",
   "background_color": "#fff",
