@@ -1,18 +1,10 @@
-# this will handle to macos hidden folders
-# ignore all starts with .* except .git and so on
-.*
-!.git*
-!.editorconfig
-
-# jekyll Cache
-_site
+node_modules
+vendor
+.bundle
 .sass-cache
 .jekyll-metadata
-Gemfile.lock
+.jekyll-cache
+*.gem
 
-# OS generated
-ehthumbs.db
-Thumbs.db
-
-# diff files
-*.bak
+#<removed/js>
+#<removed/css>
