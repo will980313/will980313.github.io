@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Writing
 description: >
   Hydejack offers a few additional features to markup your content.

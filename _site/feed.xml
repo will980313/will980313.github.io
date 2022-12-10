@@ -1,21 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-12-10T06:15:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Starter Kit</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022-12-10-welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-12-10T04:00:33+09:00</published><updated>2022-12-10T04:00:33+09:00</updated><id>http://localhost:4000/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022-12-10-welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/example/introducing-hydejack-9</id><content type="html" xml:base="http://localhost:4000/example/2020-07-03-introducing-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-12-10T17:07:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">인공지능 공부방</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/study/2020-07-03-study-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/study/study-hydejack-9</id><content type="html" xml:base="http://localhost:4000/study/2020-07-03-study-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
 
 <p><a href="#linking-in-style">Modernized</a> <a href="#whats-in-the-cards">design</a>, <a href="#ready-for-the-big-screen">big headlines</a>, big new features: <a href="#built-in-search">Built-In Search</a>, <a href="#sticky-table-of-contents">Sticky Table of Contents</a>, and <a href="#auto-hiding-navbar">Auto-Hiding Navbar</a>. That <a href="#and-much-more">and more</a> is Hydejack 9.</p>
 
@@ -46,7 +30,7 @@
 <p>Hydejack 9 now lets you use content cards for both projects and posts. 
 The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the <code class="language-plaintext highlighter-rouge">blog</code> layout. The new <code class="language-plaintext highlighter-rouge">grid</code> layout lets you do that.</p>
 
-<p>Good images are key to making the most out of content cards. For that reason, a <a href="/docs/basics/#adding-images">chapter on images</a> has been added to the documentation.</p>
+<p>Good images are key to making the most out of content cards. For that reason, a <a href="../../docs/basics.md#adding-images">chapter on images</a> has been added to the documentation.</p>
 
 <h2 id="built-in-search">Built-In Search</h2>
 
@@ -104,7 +88,7 @@ The source code is available on <a href="https://github.com/hydecorp/hydejack">G
   If you’re technically inclined, you can adopt the code located in <code class="language-plaintext highlighter-rouge">_includes/js/search-worker.js</code> to your needs. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content III</title><link href="http://localhost:4000/example/2018-06-01-example-content-iii/" rel="alternate" type="text/html" title="Example Content III" /><published>2018-06-01T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/example/example-content-iii</id><content type="html" xml:base="http://localhost:4000/example/2018-06-01-example-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
+</div>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Study" /><summary type="html"><![CDATA[Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content III</title><link href="http://localhost:4000/study/2018-06-01-study-content-iii/" rel="alternate" type="text/html" title="Example Content III" /><published>2018-06-01T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/study/study-content-iii</id><content type="html" xml:base="http://localhost:4000/study/2018-06-01-study-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
 Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
 so that your content remains compatible with other Jekyll themes.</p>
 
@@ -294,7 +278,7 @@ A caption to an image.</p>
 </blockquote>
 
 <h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content II</title><link href="http://localhost:4000/example/2017-11-23-example-content-ii/" rel="alternate" type="text/html" title="Example Content II" /><published>2017-11-23T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/example/example-content-ii</id><content type="html" xml:base="http://localhost:4000/example/2017-11-23-example-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Study" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content II</title><link href="http://localhost:4000/study/2017-11-23-study-content-ii/" rel="alternate" type="text/html" title="Example Content II" /><published>2017-11-23T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/study/study-content-ii</id><content type="html" xml:base="http://localhost:4000/study/2017-11-23-study-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
 
 <p>There should be whitespace between paragraphs.</p>
 
@@ -477,49 +461,1419 @@ A caption to an image.</p>
 </code></pre></div></div>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content</title><link href="http://localhost:4000/example/2012-02-07-example-content/" rel="alternate" type="text/html" title="Example Content" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/example/example-content</id><content type="html" xml:base="http://localhost:4000/example/2012-02-07-example-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+</code></pre></div></div>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Study" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Build</title><link href="http://localhost:4000/project/2012-02-07-project-build/" rel="alternate" type="text/html" title="Build" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:04+09:00</updated><id>http://localhost:4000/project/project-build</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-project-build/"><![CDATA[<p>This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.</p>
 
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
+<ol id="markdown-toc">
+  <li><a href="#building-locally" id="markdown-toc-building-locally">Building locally</a></li>
+  <li><a href="#building-locally-with-latent-semantic-analysis" id="markdown-toc-building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</a></li>
+  <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
+</ol>
 
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+<h2 id="building-locally">Building locally</h2>
+<p>When building Hydejack it is important to set the environment variable <code class="language-plaintext highlighter-rouge">JEKYLL_ENV</code> to <code class="language-plaintext highlighter-rouge">production</code>.
+Otherwise the output will not be minified. Building itself happens via Jekyll’s <code class="language-plaintext highlighter-rouge">build</code> command.</p>
 
-<h2 id="inline-html-elements">Inline <abbr title="HyperText Markup Language">HTML</abbr> elements</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
 
-<p><abbr title="HyperText Markup Language">HTML</abbr> defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+<p>This will generate the finished static files in <code class="language-plaintext highlighter-rouge">_site</code>,
+which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
+
+<h2 id="building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</h2>
+<p>By default, related posts are simply the most recent posts.
+Hydejack modifies this a bit, by showing the most recent posts of the same category or tag.
+However, the results are still pretty “unrelated”.
+To provide better results, Jekyll supports <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">latent semantic analysis</a> via <a href="http://www.classifier-reborn.com/"><code class="language-plaintext highlighter-rouge">classifier-reborn</code></a>’s
+<a href="http://www.classifier-reborn.com/lsi">Latent Semantic Indexer</a></p>
+
+<p>To use the <abbr title="Latent Semantic Indexer">LSI</abbr>, you first have to disable Hydejack’s default behavior,
+by setting <code class="language-plaintext highlighter-rouge">use_lsi: true</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key in your config file.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">use_lsi</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Then, you have to run <code class="language-plaintext highlighter-rouge">jekyll build</code> with the <code class="language-plaintext highlighter-rouge">--lsi</code> flag:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build <span class="nt">--lsi</span>
+</code></pre></div></div>
+
+<p>Note that this may take a long time.
+Once it is finished, the generated static files will be located in the <code class="language-plaintext highlighter-rouge">_site</code> directory,
+which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
+
+<h2 id="github-pages">GitHub Pages</h2>
+<p>If you’re using the Starter Kit for GitHub pages, all you have to do is push your repository:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git add <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="s2">"Update"</span>
+<span class="nv">$ </span>git push origin master
+</code></pre></div></div>
+
+<!-- ## GitHub Pages
+To deploy to GitHub Pages, the steps are:
+
+~~~bash
+$ cd _site
+$ git init # you only need to do this once
+$ git remote add origin <github_remote_url> # you only need to do this once
+$ git add .
+$ git commit -m "Build"
+$ git push origin master:<remote_branch>
+$ cd ..
+~~~
+
+`github_remote_url`
+: Find this on your repository's GitHub page.
+
+`remote_branch`
+: Either `master` for "user or organization pages", or `gh-pages` for "project pages"
+
+More on [user, organization, and project pages](https://help.github.com/articles/user-organization-and-project-pages/). -->
+
+<!-- Continue with [Advanced](advanced.md){:.heading.flip-title}
+{:.read-more} -->]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Project" /><summary type="html"><![CDATA[This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.]]></summary></entry><entry><title type="html">Config</title><link href="http://localhost:4000/project/2012-02-07-project-config/" rel="alternate" type="text/html" title="Config" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:51+09:00</updated><id>http://localhost:4000/project/project-config</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-project-config/"><![CDATA[<p>Once Jekyll is running, you can start with basic configuration by adding various entries to <code class="language-plaintext highlighter-rouge">_config.yml</code>. 
+Besides the documentation here, you can also read the <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_config.yml">annotated config file</a>.</p>
+
+<p class="note">When making changes to <code class="language-plaintext highlighter-rouge">_config.yml</code>, it is necessary to restart the Jekyll process for changes to take effect.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#setting-url-and-baseurl" id="markdown-toc-setting-url-and-baseurl">Setting <code class="language-plaintext highlighter-rouge">url</code> and <code class="language-plaintext highlighter-rouge">baseurl</code></a>    <ol>
+      <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
+    </ol>
+  </li>
+  <li><a href="#changing-accent-colors-and-sidebar-images" id="markdown-toc-changing-accent-colors-and-sidebar-images">Changing accent colors and sidebar images</a>    <ol>
+      <li><a href="#theme-color" id="markdown-toc-theme-color">Theme color</a></li>
+    </ol>
+  </li>
+  <li><a href="#changing-fonts" id="markdown-toc-changing-fonts">Changing fonts</a>    <ol>
+      <li><a href="#removing-google-fonts" id="markdown-toc-removing-google-fonts">Removing Google Fonts</a></li>
+    </ol>
+  </li>
+  <li><a href="#choosing-a-blog-layout" id="markdown-toc-choosing-a-blog-layout">Choosing a blog layout</a>    <ol>
+      <li><a href="#using-the-blog-layout-in-a-subdirectory" id="markdown-toc-using-the-blog-layout-in-a-subdirectory">Using the <code class="language-plaintext highlighter-rouge">blog</code> layout in a subdirectory</a></li>
+    </ol>
+  </li>
+  <li><a href="#adding-an-author" id="markdown-toc-adding-an-author">Adding an author</a>    <ol>
+      <li><a href="#adding-an-authors-picture" id="markdown-toc-adding-an-authors-picture">Adding an author’s picture</a></li>
+      <li><a href="#adding-social-media-icons" id="markdown-toc-adding-social-media-icons">Adding social media icons</a></li>
+      <li><a href="#adding-an-email-rss-icon-or-download-icon" id="markdown-toc-adding-an-email-rss-icon-or-download-icon">Adding an email, RSS icon or download icon</a></li>
+    </ol>
+  </li>
+  <li><a href="#enabling-comments" id="markdown-toc-enabling-comments">Enabling comments</a></li>
+  <li><a href="#enabling-google-analytics" id="markdown-toc-enabling-google-analytics">Enabling Google Analytics</a>    <ol>
+      <li><a href="#using-a-custom-analytics-provider" id="markdown-toc-using-a-custom-analytics-provider">Using a custom analytics provider</a></li>
+    </ol>
+  </li>
+  <li><a href="#changing-built-in-strings" id="markdown-toc-changing-built-in-strings">Changing built-in strings</a></li>
+  <li><a href="#adding-legal-documents" id="markdown-toc-adding-legal-documents">Adding legal documents</a></li>
+  <li><a href="#enabling-math-blocks" id="markdown-toc-enabling-math-blocks">Enabling math blocks</a></li>
+  <li><a href="#adding-custom-favicons-and-app-icons" id="markdown-toc-adding-custom-favicons-and-app-icons">Adding custom Favicons and App Icons</a>    <ol>
+      <li><a href="#changing-the-favicon" id="markdown-toc-changing-the-favicon">Changing the Favicon</a></li>
+      <li><a href="#changing-the-app-icons" id="markdown-toc-changing-the-app-icons">Changing the App Icons</a></li>
+    </ol>
+  </li>
+  <li><a href="#adding-a-cookies-banner" id="markdown-toc-adding-a-cookies-banner">Adding a cookies banner*</a></li>
+  <li><a href="#enabling-newsletter-boxes" id="markdown-toc-enabling-newsletter-boxes">Enabling newsletter boxes*</a></li>
+  <li><a href="#enabling-dark-mode" id="markdown-toc-enabling-dark-mode">Enabling Dark Mode*</a></li>
+</ol>
+
+<h2 id="setting-url-and-baseurl">Setting <code class="language-plaintext highlighter-rouge">url</code> and <code class="language-plaintext highlighter-rouge">baseurl</code></h2>
+<p>The first order of business should be to set the correct <code class="language-plaintext highlighter-rouge">url</code> and <code class="language-plaintext highlighter-rouge">baseurl</code> values in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">url</code> is the domain of your site, including the protocol (<code class="language-plaintext highlighter-rouge">http</code> or <code class="language-plaintext highlighter-rouge">https</code>). For this site, it is</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">url</span><span class="pi">:</span> <span class="s">https://qwtel.com</span>
+</code></pre></div></div>
+
+<p class="note">You don’t need to provide this property when hosting on GitHub Pages or Netlify.</p>
+
+<p>If your entire Jekyll blog is hosted in a subdirectory of your page, provide the path in <code class="language-plaintext highlighter-rouge">baseurl</code> with a leading <code class="language-plaintext highlighter-rouge">/</code>, but no trailing <code class="language-plaintext highlighter-rouge">/</code>,
+e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">baseurl</span><span class="pi">:</span> <span class="s">/hydejack</span>
+</code></pre></div></div>
+
+<p>Otherwise, provide the empty string <code class="language-plaintext highlighter-rouge">''</code></p>
+
+<p class="note">You don’t need to provide this property when hosting on GitHub Pages or Netlify.</p>
+
+<h3 id="github-pages">GitHub Pages</h3>
+<p>When hosting on <a href="https://pages.github.com/">GitHub Pages</a> the <code class="language-plaintext highlighter-rouge">url</code> is <code class="language-plaintext highlighter-rouge">https://&lt;username&gt;.github.io</code>
+(unless you are using a custom domain).</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">baseurl</code> depends on the kind of page you are hosting.</p>
 
 <ul>
-  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">**To bold text**</code>.</li>
-  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">*To italicize text*</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should be defined like this <code class="language-plaintext highlighter-rouge">*[HTML]: HyperText Markup Language</code>.</li>
-  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">~~deleted~~</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
+  <li>When hosting a <em>user or organization page</em>, use the empty string <code class="language-plaintext highlighter-rouge">''</code>.</li>
+  <li>When hosting <em>project page</em>, use <code class="language-plaintext highlighter-rouge">/&lt;reponame&gt;</code>.</li>
 </ul>
 
-<p>Most of these elements are styled by browsers with few modifications on our part.</p>
+<p>For for information on the types of pages you can host on GitHub, see the
+<a href="https://help.github.com/articles/user-organization-and-project-pages/">GitHub Help article</a>.</p>
 
-<h2 id="heading-2">Heading 2</h2>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+<h2 id="changing-accent-colors-and-sidebar-images">Changing accent colors and sidebar images</h2>
+<p>Hydejack allows you to choose the background image of the sidebar, as well as the accent color
+(color of the links, selection and focus outline, etc…).</p>
 
-<h3 id="heading-3">Heading 3</h3>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">accent_image</span><span class="pi">:</span> <span class="s">/assets/img/sidebar-bg.jpg</span>
+<span class="na">accent_color</span><span class="pi">:</span> <span class="s">rgb(79,177,186)</span>
+</code></pre></div></div>
 
-<h4 id="heading-4">Heading 4</h4>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
+<p class="note">I recommend using a blurred image in order for the text to remain readable.
+If you save a blurred image as JPG, it will also drastically reduce its file size.</p>
 
-<h5 id="heading-5">Heading 5</h5>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
+<p>The <code class="language-plaintext highlighter-rouge">accent_image</code> property also accepts the special value <code class="language-plaintext highlighter-rouge">none</code> which will remove the default image.</p>
 
-<h6 id="heading-6">Heading 6</h6>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
+<p>If your sidebar image contains bright colors, the white text can be difficult to read. In this case, consider setting
+<code class="language-plaintext highlighter-rouge">invert_sidebar: true</code> in the front matter to invert the text colors in the sidebar. 
+Use <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">front matter defaults</a> to enable this on all pages (see below).</p>
 
-<h2 id="code">Code</h2>
+<p>Note that these values can be overwritten on a per-page basis, i.e. you can create a unique look for each page.
+You can also apply a certain look to all posts in a category via <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">front matter defaults</a>, e.g.:</p>
 
-<p>Cum sociis natoque penatibus et magnis dis <code class="language-plaintext highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span>         <span class="s">hydejack/</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">accent_image</span><span class="pi">:</span> <span class="s">/assets/img/hydejack-bg.jpg</span>
+      <span class="na">accent_color</span><span class="pi">:</span> <span class="s">rgb(38,139,210)</span>
+</code></pre></div></div>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
+<h3 id="theme-color">Theme color</h3>
+<p>Hydejack also supports the <code class="language-plaintext highlighter-rouge">theme_color</code> property. When set, it will change the background color of the sidebar, as well as set the <code class="language-plaintext highlighter-rouge">theme_color</code> property in the <a href="https://web.dev/add-manifest/#theme-color">Web App Manifest</a>. In some browsers, such as Chrome on Android, this will change the color of the browser’s UI components.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">theme_color</span><span class="pi">:</span>  <span class="s">rgb(25,55,71)</span>
+</code></pre></div></div>
+
+<p>Just like <code class="language-plaintext highlighter-rouge">accent_*</code> properties, the theme color can be overridden on a per-page basis by setting it in the front matter.</p>
+
+<h2 id="changing-fonts">Changing fonts</h2>
+<p>Hydejack lets you configure the font of regular text and headlines, and it has built-in support for Google Fonts.
+There are three keys in <code class="language-plaintext highlighter-rouge">_config.yml</code> associated with this: <code class="language-plaintext highlighter-rouge">font</code>, <code class="language-plaintext highlighter-rouge">font_heading</code> and <code class="language-plaintext highlighter-rouge">google_fonts</code>.
+The defaults are:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">font</span><span class="pi">:</span>         <span class="s">Noto Sans, Helvetica, Arial, sans-serif</span>
+<span class="na">font_heading</span><span class="pi">:</span> <span class="s">Roboto Slab, Helvetica, Arial, sans-serif</span>
+<span class="na">google_fonts</span><span class="pi">:</span> <span class="s">Roboto+Slab:700|Noto+Sans:400,400i,700,700i</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">font</code> and <code class="language-plaintext highlighter-rouge">font_heading</code> must be valid CSS <code class="language-plaintext highlighter-rouge">font-family</code> values. When using Google Fonts make sure to provide at least one fallback.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">google_fonts</code> key is the string necessary to fetch the fonts from Google.
+You can get it from the download page at <a href="https://fonts.google.com">Google Fonts</a> after you’ve selected one or more fonts:</p>
+
+<p><img src="../assets/img/docs/google-fonts.png" alt="Where to get the google_fonts string" width="600" height="398" loading="lazy" /></p>
+
+<h3 id="removing-google-fonts">Removing Google Fonts</h3>
+<p>If you prefer not to use Google Fonts and remove all associated code from the site,
+set the <code class="language-plaintext highlighter-rouge">google_fonts</code> key to <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<p class="note">The <code class="language-plaintext highlighter-rouge">no_google_fonts</code> parameter has been removed in v9 and no longer has any effect.</p>
+
+<h2 id="choosing-a-blog-layout">Choosing a blog layout</h2>
+<p>Hydejack features three layouts for showing your blog posts.</p>
+
+<ul>
+  <li>The <a href="https://hydejack.com/posts/"><code class="language-plaintext highlighter-rouge">list</code> layout</a> only shows the title and groups the posts by year of publication.</li>
+  <li>The <a href="https://hydejack.com/blog/hydejack/"><code class="language-plaintext highlighter-rouge">grid</code> layout</a>* is exclusive to the PRO Version and will show a content card (with <code class="language-plaintext highlighter-rouge">image</code>) for each post.</li>
+  <li>The <a href="https://hydejack.com/blog/"><code class="language-plaintext highlighter-rouge">blog</code> layout</a> is a traditional paginated layout and shows the title and an excerpt of each post.</li>
+</ul>
+
+<p>In order to use the <code class="language-plaintext highlighter-rouge">list</code> or <code class="language-plaintext highlighter-rouge">grid</code> layout add the following front-matter to a new markdown file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">list</span> <span class="c1"># or `grid`</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s">Home</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>If you want to use the <code class="language-plaintext highlighter-rouge">blog</code> layout, you need to add <code class="language-plaintext highlighter-rouge">jekyll-paginate</code> to your <code class="language-plaintext highlighter-rouge">Gemfile</code> and to the <code class="language-plaintext highlighter-rouge">plugins</code> list in your config file:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-paginate"</span>
+</code></pre></div></div>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">plugins</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-paginate</span>
+</code></pre></div></div>
+
+<p>You also need to add the <code class="language-plaintext highlighter-rouge">paginate</code> and <code class="language-plaintext highlighter-rouge">paginate_path</code> keys to your config file, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">paginate</span><span class="pi">:</span>      <span class="m">10</span>
+<span class="na">paginate_path</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/:num/'</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">blog</code> layout needs to be applied to a file with the <code class="language-plaintext highlighter-rouge">.html</code> file extension
+and the <code class="language-plaintext highlighter-rouge">paginate_path</code> needs to match the path to the <code class="language-plaintext highlighter-rouge">index.html</code> file.
+To match the <code class="language-plaintext highlighter-rouge">paginate_path</code> above, put a <code class="language-plaintext highlighter-rouge">index.html</code> with the following front matter in the root directory:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `index.html`</span>
+<span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">blog</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Blog</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>For more information see <a href="https://jekyllrb.com/docs/pagination/">Pagination</a>.</p>
+
+<h3 id="using-the-blog-layout-in-a-subdirectory">Using the <code class="language-plaintext highlighter-rouge">blog</code> layout in a subdirectory</h3>
+<p>If you want to use the blog layout at a URL like <code class="language-plaintext highlighter-rouge">/my-blog/</code>, create the following folder structure:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── my-blog
+│   └── index.html
+└── _config.yml
+</code></pre></div></div>
+
+<p>You can use the same <code class="language-plaintext highlighter-rouge">index.html</code> as before and place it in the subdirectory.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `my-blog/index.html`</span>
+<span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">blog</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Blog</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>In your config file, make sure the <code class="language-plaintext highlighter-rouge">paginate_path</code> matches the name of the subdirectory:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">paginate</span><span class="pi">:</span>      <span class="m">10</span>
+<span class="na">paginate_path</span><span class="pi">:</span> <span class="s">/my-blog/:num/</span> <span class="c1">#!!</span>
+</code></pre></div></div>
+
+<p>To add an entry in the sidebar to your blog directory, see <a href="./basics.md#adding-an-entry-to-the-sidebar">Adding an entry to the sidebar</a>.</p>
+
+<h2 id="adding-an-author">Adding an author</h2>
+<p>At a bare minimum, you should add an <code class="language-plaintext highlighter-rouge">author</code> key with a <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">email</code> sub-key
+(used by the <a href="https://github.com/jekyll/jekyll-feed">feed plugin</a>) to to your config file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span>  <span class="s">Florian Klampfer</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">mail@qwtel.com</span>
+</code></pre></div></div>
+
+<p>If you would like the author to be displayed in the about section below a post or project*, add an <code class="language-plaintext highlighter-rouge">about</code> key and provide markdown content. I recommend using the YAML pipe <code class="language-plaintext highlighter-rouge">|</code> syntax, so you can include multiple paragraphs:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span>  <span class="s">Florian Klampfer</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">mail@qwtel.com</span>
+  <span class="na">about</span><span class="pi">:</span> <span class="pi">|</span>
+    <span class="s">Hi, I'm Florian or @qwtel...</span>
+
+    <span class="s">This is another paragraph.</span>
+</code></pre></div></div>
+
+<h3 id="adding-an-authors-picture">Adding an author’s picture</h3>
+<p>If you’d like for the author’s picture to appear in addition the about text (see above), you can either use the <a href="https://github.com/benbalter/jekyll-avatar"><code class="language-plaintext highlighter-rouge">jekyll-avatar</code></a> plugin or provide URLs to images manually.</p>
+
+<p>To use the plugin, add it to your <code class="language-plaintext highlighter-rouge">Gemfile</code> and the list of <code class="language-plaintext highlighter-rouge">plugins</code> in your config file:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-avatar"</span>
+</code></pre></div></div>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">plugins</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-avatar</span>
+</code></pre></div></div>
+
+<p>Run <code class="language-plaintext highlighter-rouge">bundle install</code> for the changes to take effect.</p>
+
+<p>Make sure you have provided a GitHub username in your config file (<code class="language-plaintext highlighter-rouge">github_username</code>),
+or to the author key (<code class="language-plaintext highlighter-rouge">author.social.github</code>, <code class="language-plaintext highlighter-rouge">author.github.username</code>, or <code class="language-plaintext highlighter-rouge">author.github</code>).
+See <a href="#adding-social-media-icons">Adding social media icons</a> for more.</p>
+
+<p>To set an image manually, you have to provide an URL to the author’s <code class="language-plaintext highlighter-rouge">picture</code> key:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">picture</span><span class="pi">:</span>  <span class="s">/assets/img/me.jpg</span>
+</code></pre></div></div>
+
+<p>If you’d like to provide multiple versions for screens with different pixel densities,
+you can provide <code class="language-plaintext highlighter-rouge">path</code> and <code class="language-plaintext highlighter-rouge">srcset</code> keys instead:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">picture</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span>   <span class="s">/assets/img/me.jpg</span>
+    <span class="na">srcset</span><span class="pi">:</span>
+      <span class="na">1x</span><span class="pi">:</span>   <span class="s">/assets/img/me.jpg</span>
+      <span class="na">2x</span><span class="pi">:</span>   <span class="s">/assets/img/me@2x.jpg</span>
+</code></pre></div></div>
+
+<p>The keys of the <code class="language-plaintext highlighter-rouge">srcset</code> hash will be used as image descriptors. For more information on <code class="language-plaintext highlighter-rouge">srcset</code>, see the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-srcset">documentation at MDN</a>, or <a href="https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/">this article from CSS-Tricks</a>.</p>
+
+<h3 id="adding-social-media-icons">Adding social media icons</h3>
+<p>Hydejack supports a variety of social media icons out of the box. These are defined on a per-author basis, so make sure you’ve followed the steps in <a href="#adding-an-author">Adding an author</a>.</p>
+
+<p class="note">If you are using the gem-based version of Hydejack, download <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/social.yml"><code class="language-plaintext highlighter-rouge">social.yml</code></a> and put it into <code class="language-plaintext highlighter-rouge">_data</code> in the root directory. This is necessary because gem-based themes do not support including <code class="language-plaintext highlighter-rouge">_data</code>.</p>
+
+<p>You can add a link to a social network by adding an entry to the <code class="language-plaintext highlighter-rouge">social</code> key in to an author.
+It consists of the name of the social network as key and your username within that network as value, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">twitter</span><span class="pi">:</span> <span class="s">qwtel</span>
+    <span class="na">github</span><span class="pi">:</span>  <span class="s">qwtel</span>
+</code></pre></div></div>
+
+<p>Check out <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/authors.yml"><code class="language-plaintext highlighter-rouge">authors.yml</code></a> to see which networks are available.
+You can also follow the steps <a href="advanced.md">here</a> to add your own social media icons.</p>
+
+<p>You can change the order in which the icons appear by moving lines up or down, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">github</span><span class="pi">:</span>  <span class="s">qwtel</span> <span class="c1"># now github appears first</span>
+    <span class="na">twitter</span><span class="pi">:</span> <span class="s">qwtel</span>
+</code></pre></div></div>
+
+<p>To get an overview of which networks are available and how a typical username in that network looks like,
+see the included <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/authors.yml"><code class="language-plaintext highlighter-rouge">authors.yml</code></a>.</p>
+
+<p>Should providing a username not produce a correct link for some reason, you can provide a complete URL instead, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">youtube</span><span class="pi">:</span> <span class="s">https://www.youtube.com/channel/UCu0PYX_kVANdmgIZ4bw6_kA</span>
+</code></pre></div></div>
+
+<p class="note">You can add any platform, even if it’s not defined in <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/social.yml"><code class="language-plaintext highlighter-rouge">social.yml</code></a>, by providing a complete URL. However, a fallback icon <span class="icon-link"></span> will be used when no icon is available. Supplying your own icons is an <a href="advanced.md">advanced topic</a>.</p>
+
+<h3 id="adding-an-email-rss-icon-or-download-icon">Adding an email, RSS icon or download icon</h3>
+<p>If you’d like to add an email <span class="icon-mail"></span>, RSS <span class="icon-rss2"></span>, or download <span class="icon-box-add"></span> icon to the list, add the <code class="language-plaintext highlighter-rouge">email</code>, <code class="language-plaintext highlighter-rouge">rss</code>, or <code class="language-plaintext highlighter-rouge">download</code> key, e.g.:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">author</span><span class="pi">:</span>
+  <span class="na">social</span><span class="pi">:</span>
+    <span class="na">email</span><span class="pi">:</span>    <span class="s">mail@qwtel.com</span>
+    <span class="na">rss</span><span class="pi">:</span>      <span class="s">http://localhost:4000/feed.xml</span> <span class="c1"># make sure you provide an absolute URL</span>
+    <span class="na">download</span><span class="pi">:</span> <span class="s">https://github.com/hydecorp/hydejack/archive/v9.1.6.zip</span>
+</code></pre></div></div>
+
+<h2 id="enabling-comments">Enabling comments</h2>
+<p>Hydejack supports comments via <a href="https://disqus.com/">Disqus</a>. Before you can add comments to a page you need to register and add your site to Disqus’ admin console. Once you have obtained your “Disqus shortname”, you include it in your config file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">disqus</span><span class="pi">:</span> <span class="s">&lt;disqus shortname&gt;</span>
+</code></pre></div></div>
+
+<p>Now comments can be enabled by adding <code class="language-plaintext highlighter-rouge">comments: true</code> to the front matter.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span>   <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>    <span class="s">Hello World</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>You can enable comments for entire classes of pages by using <a href="https://jekyllrb.com/docs/configuration/#front-matter-defaults">front matter defaults</a>.
+E.g. to enable comments on all posts, add to your config file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">defaults</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">posts</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">comments</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h2 id="enabling-google-analytics">Enabling Google Analytics</h2>
+<p>Enabling Google Analytics is as simple as setting the <code class="language-plaintext highlighter-rouge">google_analytics</code> key.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">google_analytics</span><span class="pi">:</span> <span class="s">UA-XXXXXXXX-X</span>
+</code></pre></div></div>
+
+<p>To remove Google Analytics and all associated code from the site, set the <code class="language-plaintext highlighter-rouge">google_analytics</code> key to <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<h3 id="using-a-custom-analytics-provider">Using a custom analytics provider</h3>
+<p>If you want to use a different analytics provider such as <a href="https://matomo.org/">Matomo</a>, you can add its code snippet to <code class="language-plaintext highlighter-rouge">_includes/my-body.html</code> (create if it doesn’t exist).
+The <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_includes/my-body.html">default file</a> contains an example.</p>
+
+<h2 id="changing-built-in-strings">Changing built-in strings</h2>
+<p>You can change the wording of built-in strings like “Related Posts” or “Read more” in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>.</p>
+
+<p>If you are using the gem-based version the file doesn’t exist, but you can get the default file <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_data/strings.yml">here</a>.</p>
+
+<p>You will frequently find markers like <code class="language-plaintext highlighter-rouge">&lt;!--post_title--&gt;</code>.
+You can place them freely within your string and they will be replaced with the content they refer to.</p>
+
+<p>You may also use this feature to translate the theme into different languages.
+In this case you should also set the <code class="language-plaintext highlighter-rouge">lang</code> key to your config file, e.g.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">lang</span><span class="pi">:</span> <span class="s">cc-ll</span>
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">cc</code> is the 2-letter country code and <code class="language-plaintext highlighter-rouge">ll</code> specifies a 2-letter location code, e.g.: <code class="language-plaintext highlighter-rouge">de-at</code>.</p>
+
+<p>You may also change the strings used for formatting dates and times (look out for the <code class="language-plaintext highlighter-rouge">date_formats</code> key), but be aware that the values you provide need to be valid Ruby <a href="http://ruby-doc.org/core-2.4.1/Time.html#method-i-strftime">format directives</a>.</p>
+
+<h2 id="adding-legal-documents">Adding legal documents</h2>
+<p>If you have pages for contact data, privacy policy, cookie policy, etc. you can add links to them in the footer by listing them under the <code class="language-plaintext highlighter-rouge">legal</code> key in your config file as follows:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">legal</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Impress</span>
+    <span class="na">url</span><span class="pi">:</span>  <span class="s">/impress/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Cookies Policy</span>
+    <span class="na">url</span><span class="pi">:</span>  <span class="s">/cookies-policy/</span>
+</code></pre></div></div>
+
+<p>When using Hydejack’s offline feature, the pages listed here will be downloaded and cached when loading the page for the first time.</p>
+
+<h2 id="enabling-math-blocks">Enabling math blocks</h2>
+
+<p>Hydejack supports <a href="https://kramdown.gettalong.org/syntax.html#math-blocks">math blocks</a> with either <a href="https://khan.github.io/KaTeX/">KaTeX</a> or <a href="https://www.mathjax.org/">MathJax</a>.</p>
+
+<p>The <em>MathJax implementation</em> comes with a client-side runtime and works on GitHub Pages. 
+It is the more heavy-weight of the two and doesn’t work without JavaScript enabled. 
+Due to the size of the complete MathJax package, it only works partially with offline support enabled.</p>
+
+<p>The <em>KaTeX implementation</em> pre-renders the KaTeX output during site building.
+It’s more lightweight because it does not ship a client-side runtime and therefore works without JavaScript.
+In my opinion, it is the more elegant solution, but it requires a JavaScript runtime on the machine that builds the site,
+i.e. it does not work on GitHub Pages.</p>
+
+<p>You can switch between the two implementations by changing the <code class="language-plaintext highlighter-rouge">kramdown.math_engine</code> key to either <code class="language-plaintext highlighter-rouge">katex</code> or <code class="language-plaintext highlighter-rouge">mathjax</code> in your config file.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">kramdown</span><span class="pi">:</span>
+  <span class="na">math_engine</span><span class="pi">:</span>         <span class="s">katex</span>
+  <span class="na">math_engine_opts</span><span class="pi">:</span>    <span class="pi">{}</span>
+</code></pre></div></div>
+
+<p>The KaTeX implementation also requires the <code class="language-plaintext highlighter-rouge">kramdown-math-katex</code> gem in your <code class="language-plaintext highlighter-rouge">Gemfile</code>. 
+If you intend to use MathJax instead, this step is not required.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"kramdown-math-katex"</span>
+</code></pre></div></div>
+
+<p>There are a couple of things to know about this gem:</p>
+<ul>
+  <li>It is not supported on GitHub Pages. 
+You have to build the site on your machine before uploading to GitHub,
+or use a more permissive cloud building tool such as Netlify.</li>
+  <li>You need some kind of JavaScript runtime on your machine.
+Usually installing <a href="https://nodejs.org/en/download/">NodeJS</a> will suffice. 
+Alternatively, adding <code class="language-plaintext highlighter-rouge">gem "duktape"</code> will also do.
+For more, see <a href="https://github.com/kramdown/math-katex#documentation">https://github.com/kramdown/math-katex#documentation</a></li>
+</ul>
+
+<p>Before you add math content, remember to run <code class="language-plaintext highlighter-rouge">bundle install</code> and restart Jekyll.</p>
+
+<h2 id="adding-custom-favicons-and-app-icons">Adding custom Favicons and App Icons</h2>
+<h3 id="changing-the-favicon">Changing the Favicon</h3>
+<p>By default, Hydejack will use the Favicon from <code class="language-plaintext highlighter-rouge">/assets/icons/favicon.ico</code> and Apple Touch Icon from <code class="language-plaintext highlighter-rouge">/assets/icons/icon-192x192.png</code>.
+You can either override these files, or override the path in the config file via <code class="language-plaintext highlighter-rouge">favicon</code> and <code class="language-plaintext highlighter-rouge">app_touch_icon</code> keys:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: "_config.yml"</span>
+<span class="na">favicon</span><span class="pi">:</span> <span class="s">/favicon.ico</span>
+<span class="na">apple_touch_icon</span><span class="pi">:</span> <span class="s">/assets/img/logo.png</span>
+</code></pre></div></div>
+
+<h3 id="changing-the-app-icons">Changing the App Icons</h3>
+<p>By default, Hydejack includes its own favicon, as well as app icons in 8 different resolutions.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Name</th>
+      <th style="text-align: right">Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-512x512.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">512x512</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-384x384.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">384x384</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-192x192.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">192x192</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-152x152.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">152x152</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-144x144.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">144x144</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-128x128.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">128x128</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-96x96.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">96x96</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">icon-72x72.png</code></td>
+      <td style="text-align: right"><code class="language-plaintext highlighter-rouge">72x72</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To change the default icons you have to replce all of them. To make this manageable, I recommend using the following tools:</p>
+
+<p>First, use the <a href="https://maskable.app/editor">Maskable.app Editor</a> to confine your logo/picture to the “minimum safe area”. More on maskable app icons, see <a href="https://web.dev/maskable-icon">this article on web.dev</a>. 
+Make sure the base image is at least 512x512 pixels in size.</p>
+
+<p>Then use the <a href="https://app-manifest.firebaseapp.com/">Web App Manifest Generator</a> to automatically resize the icons. 
+Upload the icon downloaded from Maskable.app and then click “Generate .zip”. 
+In the zip, ignore the <code class="language-plaintext highlighter-rouge">manifest.json</code> and look for the <code class="language-plaintext highlighter-rouge">icons</code> folder. Copy it into the <code class="language-plaintext highlighter-rouge">assets</code> folder of your site.</p>
+
+<p>To change the favicon, place your own <code class="language-plaintext highlighter-rouge">favicon.ico</code> (32x32, PNG) into <code class="language-plaintext highlighter-rouge">assets/icons</code>.</p>
+
+<h2 id="adding-a-cookies-banner">Adding a cookies banner*</h2>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">cookies_banner</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Enabling this setting will show a notice at the top of the page to new visitors.
+You can change the wording of the notice in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>
+with the <code class="language-plaintext highlighter-rouge">cookies_banner.text</code> and <code class="language-plaintext highlighter-rouge">cookies_banner.okay</code> keys:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_data/strings.yml`</span>
+<span class="na">cookies_banner</span><span class="pi">:</span>
+  <span class="na">text</span><span class="pi">:</span> <span class="s">This site uses cookies. [Markdown allowed](/cookies-policy/)!</span>
+  <span class="na">okay</span><span class="pi">:</span> <span class="s">Okay</span>
+</code></pre></div></div>
+
+<h2 id="enabling-newsletter-boxes">Enabling newsletter boxes*</h2>
+<p>To enable showing newsletter subscription boxes below each post and project,
+provide your <a href="https://tinyletter.com/">Tinyletter</a> username to the <code class="language-plaintext highlighter-rouge">tinyletter</code> key in the config file.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">tinyletter</span><span class="pi">:</span>  <span class="s">&lt;tinyletter username&gt;</span>
+</code></pre></div></div>
+
+<p>To edit the content of the newsletter box, open <code class="language-plaintext highlighter-rouge">_data/strings.yml</code>, and change the entries under the <code class="language-plaintext highlighter-rouge">tinyletter</code> key.</p>
+
+<p>If want to use a different mailing provider you can build your own form, and insert it into <code class="language-plaintext highlighter-rouge">_includes/my-newsletter.html</code>. The file includes an example form for MailChimp, where you need to fill in <code class="language-plaintext highlighter-rouge">site.mailchimp.action</code> and <code class="language-plaintext highlighter-rouge">site.mailchimp.hidden_input</code> (you can get these from MailChimp).</p>
+
+<p>To build a completely new from, you can use <a href="https://getbootstrap.com/docs/4.0/components/forms/">the same CSS classes as Bootstrap</a>. Note that only form, grid and utility classes are available. Check out <a href="../forms-by-example.md" class="heading flip-title">Forms by Example</a> for more examples.</p>
+
+<h2 id="enabling-dark-mode">Enabling Dark Mode*</h2>
+<p>Buyers of the PRO version have access to a dark-themed version of Hydejack.</p>
+
+<p>Dark mode can be enabled in <code class="language-plaintext highlighter-rouge">config.yml</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key and has three settings and two adjustments:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">dark_mode</span><span class="pi">:</span>
+    <span class="na">dynamic</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">sunrise</span><span class="pi">:</span> <span class="m">6</span>
+    <span class="na">sunset</span><span class="pi">:</span>  <span class="m">18</span>
+    <span class="na">icon</span><span class="pi">:</span>    <span class="no">true</span>
+    <span class="na">always</span><span class="pi">:</span>  <span class="no">false</span>
+</code></pre></div></div>
+
+<p>Setting <code class="language-plaintext highlighter-rouge">dynamic</code>, will enable dark mode based on the client’s local time (unlike location-based sunset calculations, this approach does not require a permission form the user). You can adjust <code class="language-plaintext highlighter-rouge">sunrise</code> and <code class="language-plaintext highlighter-rouge">sunset</code> to change when to show the light/dark theme.</p>
+
+<p>Setting <code class="language-plaintext highlighter-rouge">icon</code> will show a switch to alternate between the light and dark mode at the top of the page.</p>
+
+<p>Finally, setting <code class="language-plaintext highlighter-rouge">always</code> will cause dark mode to become the default theme at all times (combine with <code class="language-plaintext highlighter-rouge">dynamic: false</code>).</p>
+
+<p class="read-more">Continue with <a href="basics.md" class="heading flip-title">Basics</a></p>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Project" /><summary type="html"><![CDATA[This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.]]></summary></entry><entry><title type="html">Install</title><link href="http://localhost:4000/project/2012-02-07-project-install/" rel="alternate" type="text/html" title="Install" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:57+09:00</updated><id>http://localhost:4000/project/project-install</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-project-install/"><![CDATA[<p>How you install Hydejack depends on whether you <a href="#new-sites">start a new site</a>, 
+or change the theme of <a href="#existing-sites">an existing site</a>.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#new-sites" id="markdown-toc-new-sites">New sites</a></li>
+  <li><a href="#existing-sites" id="markdown-toc-existing-sites">Existing sites</a>    <ol>
+      <li><a href="#troubleshooting" id="markdown-toc-troubleshooting">Troubleshooting</a></li>
+    </ol>
+  </li>
+  <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
+  <li><a href="#running-locally" id="markdown-toc-running-locally">Running locally</a></li>
+</ol>
+
+<h2 id="new-sites">New sites</h2>
+<p>For new sites, the best way to get started with Hydejack is via the Starter Kit. 
+It comes with a documented config file and example content that gets you started quickly.</p>
+
+<p>If you have a GitHub account, fork the <a href="https://github.com/hydecorp/hydejack-starter-kit">Hydejack Starter Kit</a> repository. 
+Otherwise <a href="https://github.com/hydecorp/hydejack-starter-kit/archive/v9.1.6.zip">download the Starter Kit</a> and unzip them somewhere on your machine.</p>
+
+<p>If you bought the <strong>PRO Version</strong> of Hydejack, use the contents of the <code class="language-plaintext highlighter-rouge">starter-kit</code> folder instead.</p>
+
+<p class="note">In addition to the docs here, you can follow the quick start guide in the Starter Kit.</p>
+
+<p>You can now jump to <a href="#running-locally">running locally</a>.</p>
+
+<p class="note">You can now also <a href="https://app.netlify.com/start/deploy?repository=https://github.com/hydecorp/hydejack-starter-kit" class="no-mark-external"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a> directly.</p>
+
+<h2 id="existing-sites">Existing sites</h2>
+<p>If you have an existing site that you’d like to upgrade to Hydejack you can install the theme via bundler.
+Add the following to your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span>
+</code></pre></div></div>
+
+<p>If you bought the <strong>PRO Version</strong> of Hydejack, copy the <code class="language-plaintext highlighter-rouge">#jekyll-theme-hydejack</code> folder into the root folder of your site,
+and add the following to your <code class="language-plaintext highlighter-rouge">Gemfile</code> instead:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span><span class="p">,</span> <span class="ss">path: </span><span class="s2">"./#jekyll-theme-hydejack"</span>
+</code></pre></div></div>
+
+<p class="note">The folder is prefixed with a <code class="language-plaintext highlighter-rouge">#</code> to indicate that this folder is different from regular Jekyll content. 
+The <code class="language-plaintext highlighter-rouge">#</code> char was choosen specifically because it is on of the four characters ignored by Jekyll by default (<code class="language-plaintext highlighter-rouge">.</code>, <code class="language-plaintext highlighter-rouge">_</code> , <code class="language-plaintext highlighter-rouge">#</code>, <code class="language-plaintext highlighter-rouge">~</code>).</p>
+
+<p>In your config file, change the <code class="language-plaintext highlighter-rouge">theme</code> to Hydejack:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-hydejack</span>
+</code></pre></div></div>
+
+<p>Hydejack comes with a default configuration file that takes care most of the configuration,
+but it pays off to check out the example config file in the Starter Kit to see what’s available.</p>
+
+<p>You can now jump to <a href="#running-locally">running locally</a>.</p>
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>If your existing site combines theme files with your content (as did previous verisons of Hydejack/PRO),
+make sure to delete the following folders:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_layouts</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_includes</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_sass</code></li>
+  <li><code class="language-plaintext highlighter-rouge">assets</code></li>
+</ul>
+
+<p>The <code class="language-plaintext highlighter-rouge">assets</code> folder most likely includes theme files as well as your personal/content files. 
+Make sure to only delete files that belong to the old theme!</p>
+
+<h2 id="github-pages">GitHub Pages</h2>
+<p>If you want to build your site on <a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a>, check out the <a href="https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages"><code class="language-plaintext highlighter-rouge">gh-pages</code> branch</a> in the Hydejack Starter Kit repo.</p>
+
+<p>For existing sites, you can instead set the <code class="language-plaintext highlighter-rouge">remote_theme</code> key as follows:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">remote_theme</span><span class="pi">:</span> <span class="s">hydecorp/hydejack@v9.1.6</span>
+</code></pre></div></div>
+
+<p class="note" title="Important">Make sure the <code class="language-plaintext highlighter-rouge">plugins</code> list contains <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> (create if it doesn’t exist):</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">plugins</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-include-cache</span>
+</code></pre></div></div>
+
+<p>To run this configuration locally, make sure the following is part of your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"github-pages"</span><span class="p">,</span> <span class="ss">group: :jekyll_plugins</span>
+<span class="n">gem</span> <span class="s2">"jekyll-include-cache"</span><span class="p">,</span> <span class="ss">group: :jekyll_plugins</span>
+</code></pre></div></div>
+
+<p class="note">Note that Hydejack has a reduced feature set when built on GitHub Pages. 
+Specifically, using KaTeX math formulas doesn’t work when built in this way.</p>
+
+<h2 id="running-locally">Running locally</h2>
+<p>Make sure you’ve <code class="language-plaintext highlighter-rouge">cd</code>ed into the directory where <code class="language-plaintext highlighter-rouge">_config.yml</code> is located.
+Before running for the first time, dependencies need to be fetched from <a href="https://rubygems.org/">RubyGems</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p class="note">If you are missing the <code class="language-plaintext highlighter-rouge">bundle</code> command, you can install Bundler by running <code class="language-plaintext highlighter-rouge">gem install bundler</code>.</p>
+
+<p>Now you can run Jekyll on your local machine:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>and point your browser to <a href="http://localhost:4000">http://localhost:4000</a> to see Hydejack in action.</p>
+
+<p class="read-more">Continue with <a href="config.md" class="heading flip-title">Config</a></p>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Project" /><summary type="html"><![CDATA[How you install Hydejack depends on whether you start a new site, or change the theme of an existing site.]]></summary></entry><entry><title type="html">Documentation</title><link href="http://localhost:4000/docs/" rel="alternate" type="text/html" title="Documentation" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:56:12+09:00</updated><id>http://localhost:4000/project-README</id><content type="html" xml:base="http://localhost:4000/docs/"><![CDATA[<p>Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
+Should you think something is missing, <a href="mailto:mail@qwtel.com">please let me know</a>.
+Should you discover a mistake in the docs (or a bug in general) feel free to <a href="https://github.com/hydecorp/hydejack/issues">open an issue</a> on GitHub.</p>
+
+<p class="note">While this manual tries to be beginner-friendly, as a user of Jekyll it is assumed that you are comfortable running shell commands and editing text files.</p>
+
+<h2 id="getting-started">Getting started</h2>
+<ul class="related-posts faded">
+  <li><a href="install.md" class="heading flip-title">Install</a> — How to install and run Hydejack.</li>
+  <li><a href="upgrade.md" class="heading flip-title">Upgrade</a> — You can skip this if you haven’t used Hydejack before.</li>
+  <li><a href="config.md" class="heading flip-title">Config</a> — Once Jekyll is running you can start editing your config file.</li>
+</ul>
+
+<h2 id="using-hydejack">Using Hydejack</h2>
+<ul class="related-posts faded">
+  <li><a href="basics.md" class="heading flip-title">Basics</a> — How to add different types of content.</li>
+  <li><a href="writing.md" class="heading flip-title">Writing</a> — Producing markdown content for Hydejack.</li>
+  <li><a href="scripts.md" class="heading flip-title">Scripts</a> — How to include 3rd party scripts on your site.</li>
+  <li><a href="build.md" class="heading flip-title">Build</a> — How to build the static files for deployment.</li>
+  <li><a href="advanced.md" class="heading flip-title">Advanced</a> — Guides for more advanced tasks.</li>
+</ul>
+
+<h2 id="other">Other</h2>
+<ul class="related-posts faded">
+  <li><a href="../LICENSE.md" class="heading flip-title">LICENSE</a> — The license of this project.</li>
+  <li><a href="../NOTICE.md" class="heading flip-title">NOTICE</a> — Parts of this program are provided under separate licenses.</li>
+  <li><a href="../CHANGELOG.md" class="heading flip-title">CHANGELOG</a> — Version history of Hydejack.</li>
+</ul>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Project" /><summary type="html"><![CDATA[Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.]]></summary></entry><entry><title type="html">Scripts</title><link href="http://localhost:4000/project/2012-02-07-project-scripts/" rel="alternate" type="text/html" title="Scripts" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:56:20+09:00</updated><id>http://localhost:4000/project/project-scripts</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-project-scripts/"><![CDATA[<p>There are two ways of adding third party scripts.
+<a href="#embedding">Embedding</a> is ideal for one-off scripts, e.g. <code class="language-plaintext highlighter-rouge">widgets.js</code> that is part of embedded tweets (see below).
+Adding <a href="#global-scripts">global scripts</a> is for scripts that should be loaded on every page.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#embedding" id="markdown-toc-embedding">Embedding</a></li>
+  <li><a href="#global-scripts" id="markdown-toc-global-scripts">Global scripts</a></li>
+  <li><a href="#registering-push-state-event-listeners" id="markdown-toc-registering-push-state-event-listeners">Registering push state event listeners</a></li>
+  <li><a href="#if-everything-else-fails" id="markdown-toc-if-everything-else-fails">If everything else fails</a></li>
+</ol>
+
+<h2 id="embedding">Embedding</h2>
+<p>Hydejack supports embedding third party scripts directly inside markdown content. This will work in most cases, except when a script can not be loaded on a page more than once (this will occur when a user navigates to the same page twice).</p>
+
+<p>Example:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">src=</span><span class="s">"//platform.twitter.com/widgets.js"</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;blockquote</span> <span class="na">class=</span><span class="s">"twitter-tweet"</span> <span class="na">data-lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p</span> <span class="na">lang=</span><span class="s">"en"</span> <span class="na">dir=</span><span class="s">"ltr"</span><span class="nt">&gt;</span>
+    The next version of Hydejack (v6.3.0) will allow embedding 3rd party scripts,
+    like the one that comes with this tweet for example.
+  <span class="nt">&lt;/p&gt;</span>
+  <span class="ni">&amp;mdash;</span> Florian Klampfer (@qwtel)
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://twitter.com/qwtel/status/871098943505039362"</span><span class="nt">&gt;</span>June 3, 2017<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span>
+</code></pre></div></div>
+
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The next version of Hydejack (v6.3.0) will allow embedding 3rd party scripts, like the one that comes with this tweet for example.</p>&mdash; Florian Klampfer (@qwtel) <a href="https://twitter.com/qwtel/status/871098943505039362">June 3, 2017</a></blockquote>
+
+<h2 id="global-scripts">Global scripts</h2>
+<p>If you have scripts that should be included on every page you can add them globally by
+opening (or creating) <code class="language-plaintext highlighter-rouge">_includes/my-scripts.html</code> and adding them like you normally would:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: `_includes/my-scripts.html` --&gt;</span>
+<span class="nt">&lt;script
+  </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.2.1.slim.min.js"</span>
+  <span class="na">integrity=</span><span class="s">"sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="</span>
+  <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">my-scripts.html</code> will be included at the end of the <code class="language-plaintext highlighter-rouge">body</code> tag.</p>
+
+<h2 id="registering-push-state-event-listeners">Registering push state event listeners</h2>
+<p>When embedding scripts globally you might want to run some init code after each page load. However, the problem with push state-based page loads is that the <code class="language-plaintext highlighter-rouge">load</code> event won’t fire again. Luckily, Hydejack’s push state component exposes an event that you can listen to instead.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- file: `_includes/my-scripts.html` --&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">_pushState</span><span class="dl">'</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">hy-push-state-load</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// </span><span class="o">&lt;</span><span class="nx">your</span> <span class="nx">init</span> <span class="nx">code</span><span class="o">&gt;</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>Note that the above code must only run once, so include it in your <code class="language-plaintext highlighter-rouge">my-scripts.html</code>.</p>
+
+<dl>
+  <dt><code class="language-plaintext highlighter-rouge">hy-push-state-start</code></dt>
+  <dd>Occurs after clicking a link.</dd>
+  <dt><code class="language-plaintext highlighter-rouge">hy-push-state-ready</code></dt>
+  <dd>Animation fished and response has been parsed, ready to swap out the content.</dd>
+  <dt><code class="language-plaintext highlighter-rouge">hy-push-state-after</code></dt>
+  <dd>The old content has been replaced with the new content.</dd>
+  <dt><code class="language-plaintext highlighter-rouge">hy-push-state-progress</code></dt>
+  <dd>Special case when animation is finished, but no response from server has arrived yet.
+This is when the loading spinner will appear.</dd>
+  <dt><code class="language-plaintext highlighter-rouge">hy-push-state-load</code></dt>
+  <dd>All embedded script tags have been inserted into the document and have finished loading.</dd>
+</dl>
+
+<h2 id="if-everything-else-fails">If everything else fails</h2>
+<p>If you can’t make an external script work with Hydejack’s push state approach to page loading,
+you can disable push state by adding to your config file:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">no_push_state</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p class="read-more">Continue with <a href="build.md" class="heading flip-title">Build</a></p>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Project" /><summary type="html"><![CDATA[There are two ways of adding third party scripts. Embedding is ideal for one-off scripts, while global scripts are loaded on every page.]]></summary></entry><entry><title type="html">Upgrade</title><link href="http://localhost:4000/project/2012-02-07-project-upgrade/" rel="alternate" type="text/html" title="Upgrade" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:56:31+09:00</updated><id>http://localhost:4000/project/project-upgrade</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-project-upgrade/"><![CDATA[<p>This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you’ve installed Hydejack.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#free-version" id="markdown-toc-free-version">Free version</a></li>
+  <li><a href="#pro-version" id="markdown-toc-pro-version">PRO Version</a></li>
+  <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
+</ol>
+
+<p class="note">Before upgrading to v7+, make sure you’ve read the <a href="../CHANGELOG.md" class="heading flip-title">CHANGELOG</a>,
+especially the part about the <a href="../CHANGELOG.md#license-change">license change</a>!</p>
+
+<h2 id="free-version">Free version</h2>
+<p>Upgrading the free version of the theme is as easy as running</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update jekyll-theme-hydejack
+</code></pre></div></div>
+
+<h2 id="pro-version">PRO Version</h2>
+
+<p class="note">In v9, the structure of Hydejack PRO sites has changed. If you’re looking to upgrade from v8 or earlier, 
+check out <a href="./install.md#existing-sites">Installation for existing sites</a> instead.</p>
+
+<p>Buyers of the PRO version will find the files necessary for an upgrade in the <code class="language-plaintext highlighter-rouge">#jekyll-theme-hydejack</code> folder of the downloaded zip archive.
+To upgrade, simply overwrite the existing theme folder in the root directory of your site with the new one, then run</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update jekyll-theme-hydejack
+</code></pre></div></div>
+
+<p class="note">If you’ve modified any of Hydejack’s files in <code class="language-plaintext highlighter-rouge">#jekyll-theme-hydejack</code>, your changes will most likely be overwritten
+and you have to apply them again. Make sure you’ve made a backup before overwriting any files.</p>
+
+<h2 id="github-pages">GitHub Pages</h2>
+<p>When building on GitHub Pages, upgrading Hydejack is as simple as setting the <code class="language-plaintext highlighter-rouge">remote_theme</code> key in <code class="language-plaintext highlighter-rouge">_config.yml</code> to the desired version.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">remote_theme</span><span class="pi">:</span> <span class="s">hydecorp/hydejack@v9.1.6</span>
+</code></pre></div></div>
+
+<p>To use the latest version on the <code class="language-plaintext highlighter-rouge">v9</code> branch on each build, you can use  <code class="language-plaintext highlighter-rouge">hydecorp/hydejack@v9</code>.</p>
+
+<p class="read-more">Continue with <a href="config.md" class="heading flip-title">Config</a></p>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Project" /><summary type="html"><![CDATA[This chapter shows how to upgrade Hydejack to a newer version. The method depends on how you've installed Hydejack.]]></summary></entry><entry><title type="html">Writing</title><link href="http://localhost:4000/project/2012-02-07-project-writing/" rel="alternate" type="text/html" title="Writing" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:56:40+09:00</updated><id>http://localhost:4000/project/project-writing</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-project-writing/"><![CDATA[<p>Hydejack offers a few additional features to markup your content.
+Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
+so that your content remains compatible with other Jekyll themes.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#a-word-on-building-speeds" id="markdown-toc-a-word-on-building-speeds">A word on building speeds</a></li>
+  <li><a href="#adding-a-table-of-contents" id="markdown-toc-adding-a-table-of-contents">Adding a table of contents</a></li>
+  <li><a href="#adding-notes" id="markdown-toc-adding-notes">Adding notes</a></li>
+  <li><a href="#adding-large-text" id="markdown-toc-adding-large-text">Adding large text</a></li>
+  <li><a href="#adding-large-images" id="markdown-toc-adding-large-images">Adding large images</a></li>
+  <li><a href="#adding-image-captions" id="markdown-toc-adding-image-captions">Adding image captions</a></li>
+  <li><a href="#adding-large-quotes" id="markdown-toc-adding-large-quotes">Adding large quotes</a></li>
+  <li><a href="#adding-faded-text" id="markdown-toc-adding-faded-text">Adding faded text</a></li>
+  <li><a href="#adding-tables" id="markdown-toc-adding-tables">Adding tables</a>    <ol>
+      <li><a href="#scroll-table" id="markdown-toc-scroll-table">Scroll table</a></li>
+      <li><a href="#small-tables" id="markdown-toc-small-tables">Small tables</a></li>
+    </ol>
+  </li>
+  <li><a href="#adding-code-blocks" id="markdown-toc-adding-code-blocks">Adding code blocks</a></li>
+  <li><a href="#adding-math" id="markdown-toc-adding-math">Adding math</a>    <ol>
+      <li><a href="#inline" id="markdown-toc-inline">Inline</a></li>
+      <li><a href="#block" id="markdown-toc-block">Block</a></li>
+    </ol>
+  </li>
+</ol>
+
+<p class="note">For an introduction to markdown in general, see <a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a> and <a href="https://kramdown.gettalong.org/syntax.html">kramdown Syntax</a>.</p>
+
+<h2 id="a-word-on-building-speeds">A word on building speeds</h2>
+<p>If building speeds are a problem, try using the <code class="language-plaintext highlighter-rouge">--incremental</code> flag, e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve --incremental
+</code></pre></div></div>
+
+<p>From the <a href="https://jekyllrb.com/docs/configuration/#build-command-options">Jekyll docs</a> (emphasis mine):</p>
+
+<blockquote>
+  <p>Enable the experimental incremental build feature. Incremental build only re-builds posts and pages that have changed, resulting in significant performance improvements for large sites, <em>but may also break site generation in certain cases</em>.</p>
+</blockquote>
+
+<p>The breakage occurs when you create new files or change filenames.
+Also, changing the title, category, tags, etc. of a page or post will not be reflected in pages
+other then the page or post itself.
+This makes it ideal for writing new posts and previewing changes, but not setting up new content.</p>
+
+<h2 id="adding-a-table-of-contents">Adding a table of contents</h2>
+<p>You can add a generated table of contents to any page by adding <code class="language-plaintext highlighter-rouge">{:toc}</code> below a list.</p>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> this unordered seed list will be replaced by the toc
+{:toc}
+</code></pre></div></div>
+
+<p>You can also create your table of contents as an ordered list (note the <code class="language-plaintext highlighter-rouge">1.</code> instead of <code class="language-plaintext highlighter-rouge">*</code>):</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> this ordered seed list will be replaced by the toc
+{:toc}
+</code></pre></div></div>
+
+<p>The width of the display has to be larger than 1665px for the ToC to become sticky.
+Otherwise, the ToC will appear where the seed list is placed in the document.
+To show the table of contents only on large displays (&gt; 1665px) use the following:</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> this unordered seed list will be replaced by the toc 
+{:toc .large-only}
+</code></pre></div></div>
+
+<p class="note">A sticky table of contents will reduce the amount of space freed up by the <code class="language-plaintext highlighter-rouge">no_break_layout: false</code> setting.<br />
+This is necessary to ensure large code blocks or tables don’t overlap with the ToC.</p>
+
+<h2 id="adding-notes">Adding notes</h2>
+<p>You can add a note by adding the <code class="language-plaintext highlighter-rouge">note</code> class to a paragraph.</p>
+
+<p>Example:</p>
+
+<p class="note">You can add a note.</p>
+
+<p>Markdown:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You can add a note.
+{:.note}
+</code></pre></div></div>
+
+<p>Edit the <code class="language-plaintext highlighter-rouge">note</code> key in <code class="language-plaintext highlighter-rouge">_data/strings.yml</code> to change the wording of the default label.
+To add a note with a specific label, add a <code class="language-plaintext highlighter-rouge">title</code> attribute:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A custom label.
+{:.note title="Attention"}
+</code></pre></div></div>
+
+<p class="note" title="Attention">A custom label.</p>
+
+<h2 id="adding-large-text">Adding large text</h2>
+<p>You can add large text by adding the <code class="language-plaintext highlighter-rouge">lead</code> class to the paragraph.</p>
+
+<p>Example:</p>
+
+<p class="lead">You can add large text.</p>
+
+<p>Markdown:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You can add large text.
+{:.lead}
+</code></pre></div></div>
+
+<h2 id="adding-large-images">Adding large images</h2>
+<p>You can make an image span the full width by adding the <code class="language-plaintext highlighter-rouge">lead</code> class.</p>
+
+<p>Example:</p>
+
+<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" loading="lazy" /></p>
+
+<p>Markdown:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Full-width image</span><span class="p">](</span><span class="sx">https://via.placeholder.com/800x100</span><span class="p">)</span>{:.lead width="800" height="100" loading="lazy"}
+</code></pre></div></div>
+
+<p>It is recommended to provide the dimension of the image via the <code class="language-plaintext highlighter-rouge">width</code> and <code class="language-plaintext highlighter-rouge">height</code> attributes, 
+so that browsers can calculate the layout before the images are loaded. Combining this with the <code class="language-plaintext highlighter-rouge">loading="lazy"</code> attribute
+allows modern browsers to load the images just-in-time as the users scrolls.</p>
+
+<p class="note">Previous versions of Hydejack shipped with a custom JavaScript-based lazy loading solution,
+but it has been removed in v9 in favor of this more standards-based approach.</p>
+
+<h2 id="adding-image-captions">Adding image captions</h2>
+<p>You can add captions to large images by adding the <code class="language-plaintext highlighter-rouge">figcaption</code> class to the paragraph after the image:</p>
+
+<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" loading="lazy" /></p>
+
+<p class="figcaption">An optional caption for an image.</p>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Full-width image</span><span class="p">](</span><span class="sx">https://via.placeholder.com/800x100</span><span class="p">)</span>{:.lead width="800" height="100" loading="lazy"}
+
+A caption for an image.
+{:.figcaption}
+</code></pre></div></div>
+
+<h2 id="adding-large-quotes">Adding large quotes</h2>
+<p>You can make a quote “pop out” by adding the <code class="language-plaintext highlighter-rouge">lead</code> class.</p>
+
+<p>Example:</p>
+
+<blockquote class="lead">
+  <p>You can make a quote “pop out”.</p>
+</blockquote>
+
+<p>Markdown:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; You can make a quote "pop out".
+{:.lead}
+</code></pre></div></div>
+
+<h2 id="adding-faded-text">Adding faded text</h2>
+<p>You can gray out text by adding the <code class="language-plaintext highlighter-rouge">faded</code> class. Use this sparingly and for information that is not essential, as it is more difficult to read.</p>
+
+<p>Example:</p>
+
+<p class="faded">I’m faded, faded, faded.</p>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I'm faded, faded, faded.
+{:.faded}
+</code></pre></div></div>
+
+<h2 id="adding-tables">Adding tables</h2>
+<p>Adding tables is straightforward and works just as described in the <a href="https://kramdown.gettalong.org/syntax.html#tables">kramdown docs</a>, e.g.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+</code></pre></div></div>
+
+<p>However, it gets tricker when adding large tables.
+In this case, Hydejack will break the layout and grant the table the entire available screen width to the right:</p>
+
+<table class="smaller">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+    <tr>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tfoot>
+</table>
+
+<p class="note">Tables adopts to the font size! You can decrease the size of the table by adding the <code class="language-plaintext highlighter-rouge">smaller</code> CSS class. Put <code class="language-plaintext highlighter-rouge">{:.smaller}</code> below the Markdown table, or add <code class="language-plaintext highlighter-rouge">class="smaller"</code> to a HTML table.</p>
+
+<h3 id="scroll-table">Scroll table</h3>
+<p>If the extra space still isn’t enough, the table will receive a scrollbar.
+It is browser default behavior to break the lines inside table cells to fit the content on the screen.
+By adding the <code class="language-plaintext highlighter-rouge">scroll-table</code> class on a table, the behavior is changed to never break lines inside cells, e.g:</p>
+
+<table class="smaller scroll-table">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+    <tr>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+    <tr>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Second body</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>2 line</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+      <td>Footer row</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tfoot>
+</table>
+
+<p>You can add the <code class="language-plaintext highlighter-rouge">scroll-table</code> class to a markdown table by putting <code class="language-plaintext highlighter-rouge">{:.scroll-table}</code> in line directly below the table.
+To add the class to a HTML table, add the it to the <code class="language-plaintext highlighter-rouge">class</code> attribute of the <code class="language-plaintext highlighter-rouge">table</code> tag, e.g. <code class="language-plaintext highlighter-rouge">&lt;table class="scroll-table"&gt;</code>.</p>
+
+<h3 id="small-tables">Small tables</h3>
+<p>If a table is small enough to fit the screen even on small screens, you can add the <code class="language-plaintext highlighter-rouge">stretch-table</code> class
+to force a table to use the entire available content width. Note that stretched tables can no longer be scrolled.</p>
+
+<table class="stretch-table">
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned</th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="figcaption">An optional caption for a table</p>
+
+<p>You can add the <code class="language-plaintext highlighter-rouge">stretch-table</code> class to a markdown table by putting <code class="language-plaintext highlighter-rouge">{:.stretch-table}</code> in line directly below the table.
+To add the class to a HTML table, add the it to the <code class="language-plaintext highlighter-rouge">class</code> attribute of the <code class="language-plaintext highlighter-rouge">table</code> tag, e.g. <code class="language-plaintext highlighter-rouge">&lt;table class="stretch-table"&gt;</code>.</p>
+
+<p>Just like images, you can add captions to tables by adding the <code class="language-plaintext highlighter-rouge">figcaption</code> class to the paragraph after the table.</p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>An optional caption for a table
+{:.figcaption}
+</code></pre></div></div>
+
+<h2 id="adding-code-blocks">Adding code blocks</h2>
+<p>To add a code block without syntax highlighting, simply indent 4 spaces (regular markdown).
+For code blocks with code highlighting, use <code class="language-plaintext highlighter-rouge">~~~&lt;language&gt;</code>. This syntax is also supported by GitHub.
+For more information and a list of supported languages, see <a href="http://rouge.jneen.net/">Rouge</a>.</p>
+
+<p>You can give each code block a filename, by making the first line in the block a comment of the form <code class="language-plaintext highlighter-rouge">File: "dir/filename.ext"</code>. Use either single quotes <code class="language-plaintext highlighter-rouge">'</code>, double quotes <code class="language-plaintext highlighter-rouge">"</code>, or backticks <code>`</code> to surround the filename.</p>
+
+<p>Example:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// file: "code-block.js"</span>
+<span class="c1">// Example can be run directly in your JavaScript console</span>
 
 <span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
 <span class="c1">// arguments</span>
@@ -530,83 +1884,93 @@ A caption to an image.</p>
 <span class="c1">// &gt; 8</span>
 </code></pre></div></div>
 
-<h2 id="lists">Lists</h2>
+<p class="figcaption">An optional caption for a code block</p>
 
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p>Markdown:</p>
 
-<ul>
-  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-  <li>Donec id elit non mi porta gravida at eget metus.</li>
-  <li>Nulla vitae elit libero, a pharetra augue.</li>
-</ul>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~~~js
+// file: "code-block.js"
+// Example can be run directly in your JavaScript console
 
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+// Create a function that takes two arguments and returns the sum of those
+// arguments
+var adder = new Function("a", "b", "return a + b");
 
-<ol>
-  <li>Vestibulum id ligula porta felis euismod semper.</li>
-  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-</ol>
+// Call the function
+adder(2, 6);
+// &gt; 8
+~~~
 
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+An optional caption for a code block
+{:.figcaption}
+</code></pre></div></div>
 
-<dl>
-  <dt>HyperText Markup Language (<abbr title="HyperText Markup Language">HTML</abbr>)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-  <dt>Cascading Style Sheets (<abbr title="Cascading Style Sheets">CSS</abbr>)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-  <dt>JavaScript (<abbr title="JavaScript">JS</abbr>)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
+<p class="note">DO NOT use Jekyll’s <code class="language-plaintext highlighter-rouge">{ % highlight % } ... { % endhighlight % }</code> syntax, especially together with the <code class="language-plaintext highlighter-rouge">linenos</code> option.
+The generated <code class="language-plaintext highlighter-rouge">table</code> to render the line numbers does not have a CSS class or any other way of differentiating it from regular tables,
+so that the styles above apply, resulting in a broken page.
+What’s more, the output from <code class="language-plaintext highlighter-rouge">highlight</code> tags isn’t even valid HTML, nesting <code class="language-plaintext highlighter-rouge">pre</code> tags inside <code class="language-plaintext highlighter-rouge">pre</code> tags,
+which will in break the site during minification.
+You can read more about it <a href="https://github.com/penibelst/jekyll-compress-html/issues/71">here</a> and
+<a href="https://github.com/jekyll/jekyll/issues/4432">here</a>.</p>
 
-<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+<h2 id="adding-math">Adding math</h2>
+<p>Before adding math blocks, make sure you’ve <a href="./config.md#enabling-math-blocks">set up math support</a>.</p>
 
-<h2 id="images">Images</h2>
+<h3 id="inline">Inline</h3>
+<p>Example:</p>
 
-<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
+<p>Lorem ipsum \(f(x) = x^2\).</p>
 
-<p><img src="https://via.placeholder.com/800x400" alt="800x400" title="Large example image" /></p>
+<p>Markdown:</p>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lorem ipsum $$ f(x) = x^2 $$.
+</code></pre></div></div>
 
-<p><img src="https://via.placeholder.com/400x200" alt="400x200" title="Medium example image" /></p>
+<h3 id="block">Block</h3>
+<p>Example:</p>
 
-<p><img src="https://via.placeholder.com/200x200" alt="200x200" title="Small example image" /></p>
+\[\begin{aligned}
+  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
+            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
+            &amp;= (x_1, \ldots, x_n)
+               \left(\begin{array}{ccc}
+                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
+                 \vdots          &amp; \ddots &amp; \vdots         \\
+                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
+               \end{array}\right)
+               \left(\begin{array}{c}
+                 y_1    \\
+                 \vdots \\
+                 y_n
+               \end{array}\right)
+\end{aligned}\]
 
-<h2 id="tables">Tables</h2>
+<p class="figcaption">An optional caption for a math block</p>
 
-<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p>Markdown:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Name</th>
-      <th style="text-align: left">Upvotes</th>
-      <th style="text-align: left">Downvotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Alice</td>
-      <td style="text-align: left">10</td>
-      <td style="text-align: left">11</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Bob</td>
-      <td style="text-align: left">4</td>
-      <td style="text-align: left">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Charlie</td>
-      <td style="text-align: left">7</td>
-      <td style="text-align: left">9</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Totals</td>
-      <td style="text-align: left">21</td>
-      <td style="text-align: left">23</td>
-    </tr>
-  </tfoot>
-</table>
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">$$</span><span class="nb">
+</span><span class="nv">\begin</span><span class="p">{</span><span class="nb">aligned</span><span class="p">}</span><span class="nb"> </span><span class="c">%!!15</span><span class="nb">
+  </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">x,y</span><span class="o">)</span><span class="nb"> </span><span class="p">&amp;</span><span class="o">=</span><span class="nb"> </span><span class="nv">\phi</span><span class="nb"> </span><span class="nv">\left</span><span class="o">(</span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">i</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n x</span><span class="p">_</span><span class="nb">ie</span><span class="p">_</span><span class="nb">i, </span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">j</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n y</span><span class="p">_</span><span class="nb">je</span><span class="p">_</span><span class="nb">j </span><span class="nv">\right</span><span class="o">)</span><span class="nb"> </span><span class="nv">\\</span><span class="o">[</span><span class="m">2</span><span class="nb">em</span><span class="o">]</span><span class="nb">
+            </span><span class="p">&amp;</span><span class="o">=</span><span class="nb"> </span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">i</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n </span><span class="nv">\sum</span><span class="p">_{</span><span class="nb">j</span><span class="o">=</span><span class="m">1</span><span class="p">}^</span><span class="nb">n x</span><span class="p">_</span><span class="nb">i y</span><span class="p">_</span><span class="nb">j </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="nb">i, e</span><span class="p">_</span><span class="nb">j</span><span class="o">)</span><span class="nb">            </span><span class="nv">\\</span><span class="o">[</span><span class="m">2</span><span class="nb">em</span><span class="o">]</span><span class="nb">
+            </span><span class="p">&amp;</span><span class="o">=</span><span class="nb"> </span><span class="o">(</span><span class="nb">x</span><span class="p">_</span><span class="m">1</span><span class="nb">, </span><span class="nv">\ldots</span><span class="nb">, x</span><span class="p">_</span><span class="nb">n</span><span class="o">)</span><span class="nb">
+               </span><span class="nv">\left</span><span class="o">(</span><span class="nv">\begin</span><span class="p">{</span><span class="nb">array</span><span class="p">}{</span><span class="nb">ccc</span><span class="p">}</span><span class="nb">
+                 </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="m">1</span><span class="nb">, e</span><span class="p">_</span><span class="m">1</span><span class="o">)</span><span class="nb">  </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\cdots</span><span class="nb"> </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="m">1</span><span class="nb">, e</span><span class="p">_</span><span class="nb">n</span><span class="o">)</span><span class="nb"> </span><span class="nv">\\</span><span class="nb">
+                 </span><span class="nv">\vdots</span><span class="nb">          </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\ddots</span><span class="nb"> </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\vdots</span><span class="nb">         </span><span class="nv">\\</span><span class="nb">
+                 </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="nb">n, e</span><span class="p">_</span><span class="m">1</span><span class="o">)</span><span class="nb">  </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\cdots</span><span class="nb"> </span><span class="p">&amp;</span><span class="nb"> </span><span class="nv">\phi</span><span class="o">(</span><span class="nb">e</span><span class="p">_</span><span class="nb">n, e</span><span class="p">_</span><span class="nb">n</span><span class="o">)</span><span class="nb">
+               </span><span class="nv">\end</span><span class="p">{</span><span class="nb">array</span><span class="p">}</span><span class="nv">\right</span><span class="o">)</span><span class="nb">
+               </span><span class="nv">\left</span><span class="o">(</span><span class="nv">\begin</span><span class="p">{</span><span class="nb">array</span><span class="p">}{</span><span class="nb">c</span><span class="p">}</span><span class="nb">
+                 y</span><span class="p">_</span><span class="m">1</span><span class="nb">    </span><span class="nv">\\</span><span class="nb">
+                 </span><span class="nv">\vdots</span><span class="nb"> </span><span class="nv">\\</span><span class="nb">
+                 y</span><span class="p">_</span><span class="nb">n
+               </span><span class="nv">\end</span><span class="p">{</span><span class="nb">array</span><span class="p">}</span><span class="nv">\right</span><span class="o">)</span><span class="nb">
+</span><span class="nv">\end</span><span class="p">{</span><span class="nb">aligned</span><span class="p">}</span><span class="nb">
+</span><span class="p">$$</span>
 
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><category term="example" /><summary type="html"><![CDATA[Howdy! This is an example blog post that shows several types of HTML content supported in this theme.]]></summary></entry></feed>
+An optional caption for a math block
+<span class="p">{</span>:.figcaption<span class="p">}</span>
+</code></pre></div></div>
+
+<p class="note">KaTeX does not support the <code class="language-plaintext highlighter-rouge">align</code> and <code class="language-plaintext highlighter-rouge">align*</code> environments.
+Instead, <code class="language-plaintext highlighter-rouge">aligned</code> should be used, e.g. <code class="language-plaintext highlighter-rouge">\begin{aligned} ... \end{aligned}</code>.</p>
+
+<p class="read-more">Continue with <a href="scripts.md" class="heading flip-title">Scripts</a></p>]]></content><author><name>&lt;이&gt; &lt;주언&gt;</name><email>&lt;will980313@gmail.com&gt;</email></author><category term="Project" /><summary type="html"><![CDATA[Hydejack offers a few additional features to markup your content. Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax, so that your content remains compatible with other Jekyll themes.]]></summary></entry></feed>

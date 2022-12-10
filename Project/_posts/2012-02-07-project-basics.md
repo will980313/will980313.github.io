@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Basics
 description: >
   This chapter covers the basics of content creation with Hydejack.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Scripts
 description: >
   There are two ways of adding third party scripts.
