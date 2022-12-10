@@ -51,7 +51,10 @@ author:
 menu:
   - title:             About
     url:               /about/
-
+  - title:             Study
+    url:               /about/
+  - title:             Project
+    url:               /about/
 
 
 # Add links to the footer.
