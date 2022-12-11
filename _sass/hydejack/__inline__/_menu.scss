@@ -22,7 +22,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-$navbar-height: 5rem;
+$navbar-height: 4rem;
 
 
 .fixed-common {
@@ -60,6 +60,21 @@ $navbar-height: 5rem;
   
 }
 
+.nav-text {
+  @extend .color-transition;
+  background: none;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: $navbar-height;
+  color: black;
+  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  margin-left: -1px;
+}
 
 .nav-btn-bar {
   @extend .color-transition;
