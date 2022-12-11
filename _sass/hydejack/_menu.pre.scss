@@ -112,7 +112,7 @@ $navbar-height: 4rem;
   border-left: 1px solid var(--border-color);
   margin-left: -1px;
 }
-// >>>
+
 .nav-text {
   @extend .color-transition;
   background: none;
@@ -128,6 +128,8 @@ $navbar-height: 4rem;
   border-left: 1px solid var(--border-color);
   margin-left: -1px;
 }
+// >>>
+
 // <<< link
 a.nav-btn, button.nav-btn, a.nav-text, button.nav-text {
   cursor: pointer;
