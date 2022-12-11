@@ -129,7 +129,7 @@ $navbar-height: 4rem;
   margin-left: -1px;
 }
 // <<< link
-a.nav-btn, button.nav-btn {
+a.nav-btn, button.nav-btn, a.nav-text, button.nav-text {
   cursor: pointer;
   &:hover, &:focus {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
