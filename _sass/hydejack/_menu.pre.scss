@@ -88,7 +88,7 @@ $navbar-height: 5rem;
   background-color: white; // IE11
   background-color: var(--body-bg);
   height: $navbar-height;
-  display: flex;
+  display: none; //flex
   align-items: center;
   position: relative;
 
