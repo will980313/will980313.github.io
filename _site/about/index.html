@@ -46,7 +46,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta property="twitter:image" content="http://localhost:4000/assets/img/blog/hydejack-9.jpg" />
 <meta property="twitter:title" content="About" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"이 주언"},"dateModified":"2022-12-11T03:12:54+09:00","description":"A boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"About","image":"http://localhost:4000/assets/img/blog/hydejack-9.jpg","name":"인공지능 공부방","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"이 주언"},"url":"http://localhost:4000/about/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"이 주언"},"dateModified":"2022-12-11T22:07:17+09:00","description":"A boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"About","image":"http://localhost:4000/assets/img/blog/hydejack-9.jpg","name":"인공지능 공부방","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"이 주언"},"url":"http://localhost:4000/about/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -103,13 +103,13 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._publicPath = '/assets/js/';
   w._noPushState = false;
   w._noDrawer = false;
-  w._noNavbar = false;
+  w._noNavbar = true;
   w._noToc = false;
   w._noSearch = false;
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2022-12-11T03:13:08+09:00',
+    INDEX_KEY: 'index--2022-12-11T22:23:06+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -234,18 +234,109 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
     
 
 <h2 id="personal-details">PERSONAL DETAILS</h2>
+<hr />
+
 <p>생년월일: 1998년 3월 13일 대한민국 김천시 출생<br />
 연락처: will980313@gmail.com / 010-9465-5181<br />
-성별: 남
+성별: 남<br />
 병역: 육군 병장 만기제대</p>
 <h2 id="education">EDUCATION</h2>
+<hr />
+
 <p>금오공과대학교<br />
-컴퓨터공학과</p>
+컴퓨터공학과 졸업예정</p>
 <h2 id="resrarch-interest">RESRARCH INTEREST</h2>
+<hr />
+
 <p>Computer Vision, Natural Language Processing, Time Series Forecasting</p>
 <h2 id="redearch-experience">REDEARCH EXPERIENCE</h2>
+<hr />
+<blockquote>
+  <p>An Intensity Controlled Review Dataset Construction for Automatic Review Generation<br />
+2020/9 ~ 2020/12</p>
+  <ul>
+    <li>
+      <p><a href="http://ki-it.com/xml/32253/32253.pdf">http://ki-it.com/xml/32253/32253.pdf</a></p>
+    </li>
+    <li>음식리뷰 데이터를 이용해 GPT-2, BART 문장 생성 모델을 학습해 성능 비교</li>
+    <li>리뷰의 긍정 부정 점수를 계산해 학습</li>
+    <li>키워드와 부여된 평점에 맞는 리뷰 생성</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>YOLO v5를 사용한 회의 종류를 알려주는 어플 개발<br />
+2021/9 ~ 2021/12</p>
+  <ul>
+    <li><a href="https://github.com/dami138/loveSashimi">https://github.com/dami138/loveSashimi</a></li>
+    <li>구글 이미지 검색페이지를 크롤링해 데이터 획득</li>
+    <li>YOLOv5를 이용해 참치, 연어, 우럭, 광어, 밀치 객체 탐지</li>
+    <li>pt모델을 ptl로 변환하여 안드로이드에 적용</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>비접촉 조작 및 위급 상황 탐지를 위한 엘리베이터 음성 인식 시스템<br />
+2021/6 ~ 2022/6</p>
+
+  <ul>
+    <li><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11113870">https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11113870</a></li>
+    <li>WAV2VEC을 사용해 엘리베이터 음성 명령어, 구조요청 학습</li>
+    <li>CCTV로 입력된 음성을 이용하여 엘리베이터 조작</li>
+    <li>저음질 음성 학습방법 제시</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>공간적 인접성을 고려한 TFT 모델 기반 교통사고 예측<br />
+2021/8 ~ 2022/6</p>
+  <ul>
+    <li><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11113869">https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11113869</a></li>
+    <li>LSTW데이터와 Temporal Fusion Transformers 모델을 사용하여 학습</li>
+    <li>인접한 지역을 그룹으로 묶어 학습하여 더 높은 성능을 냄</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>GRU 기반 행동 분석 모델을 이용한 어린이 이상 행동 검출 시스템<br />
+2022/3 ~ 2022/8</p>
+  <ul>
+    <li><a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11082631">https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11082631</a></li>
+    <li>MoblieNetV3을 통해 추출한 특징 벡터를 GRU에 입력하여 행동 분류</li>
+    <li>일반과 폭력으로 구분하며 폭력 행동 시 이를 알림</li>
+    <li>추후 연구로 YOLO를 사용하여 사람 외 노이즈를 제거해 성능을 높임</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>TFT 모델을 사용한 시계열 데이터 예측<br />
+2022/8 ~</p>
+  <ul>
+    <li>일정한 패턴으로 움직이는 유리 연마기의 움직임을 예측하여 불량률 최소화가 목표</li>
+    <li>XDK 센서로 측정한 데이터를 Temporal Fusion Transformers 모델을 사용하여 학습</li>
+    <li>InfluxDB와 Grafana를 사용하여 실시간 센서 값과 예측 값 표출</li>
+    <li>예측 값과 실제 값의 Loss가 커지면 이상이 있음을 알림</li>
+  </ul>
+</blockquote>
+
 <h2 id="awards">AWARDS</h2>
+<hr />
+<blockquote>
+  <p>한국정보기술학회 하계종합학술대회 금상 수상 <br />
+2022/6</p>
+  <ul>
+    <li>GRU 기반 행동 분석 모델을 이용한 어린이 이상 행동 검출 시스템 논문 발표</li>
+    <li><a href="https://ki-it.or.kr/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/11368224">https://ki-it.or.kr/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/11368224</a></li>
+  </ul>
+</blockquote>
+
 <h2 id="skills">SKILLS</h2>
+<hr />
+<ul>
+  <li>Programming Languages. Python, C/C++</li>
+  <li>ML/DL Frameworks. TensorFlow, PyTorch</li>
+  <li>Operating Systems. Linux, Windows</li>
+</ul>
 
 </article>
 

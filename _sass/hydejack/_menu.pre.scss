@@ -36,7 +36,7 @@ $navbar-height: 5rem;
 
 .navbar {
   @extend .color-transition; // inline
-
+  
   > .content {
     // <<< inline
     position: relative;
@@ -45,7 +45,7 @@ $navbar-height: 5rem;
     min-height: 0;
     max-height: $navbar-height;
     // >>>
-
+    
     // <<< link
     $shadow-padding: 3rem;
     &::before {
@@ -132,6 +132,7 @@ a.nav-btn, button.nav-btn {
 }
 
 #_navbar {
+  display: none; //
   z-index: 3;
   background-color: var(--body-bg);
 }
