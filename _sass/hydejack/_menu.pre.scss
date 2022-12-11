@@ -97,6 +97,22 @@ $navbar-height: 4rem;
   }
 }
 
+.nav-text {
+  @extend .color-transition;
+  background: none;
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: $navbar-height;
+  color: black;
+  border-right: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  margin-left: -1px;
+}
+
 .nav-btn {
   @extend .color-transition;
   background: none;
@@ -113,21 +129,6 @@ $navbar-height: 4rem;
   margin-left: -1px;
 }
 
-.nav-text {
-  @extend .color-transition;
-  background: none;
-  border: none;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 8rem;
-  height: $navbar-height;
-  color: black;
-  border-right: 1px solid var(--border-color);
-  border-left: 1px solid var(--border-color);
-  margin-left: -1px;
-}
 // >>>
 
 // <<< link
