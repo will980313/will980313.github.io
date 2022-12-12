@@ -64,6 +64,19 @@
 
   {% if no_excerpt %}
     {{ post.content }}
+    <script>
+      const toc = document.querySelector('#markdown-toc');
+      var pos = toc.offsetTop;
+      window.addEventListener('scroll',e=>{
+          if (window.scrollY >= pos){
+              toc.classList.add('affix');
+          }
+          else{
+              toc.classList.remove('affix');
+          }
+      });
+
+  </script>
   {% else %}
     {{ post.excerpt }}
 

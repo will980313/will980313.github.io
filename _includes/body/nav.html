@@ -15,7 +15,7 @@
             <a {% if forloop.first %}id="_navigation"{% endif %} href="{{ node.url | relative_url }}" class="sidebar-nav-item" {% if node.rel %}rel="{{ node.rel }}"{% endif %} >{{ node.title }}</a>
             {% if subnodes != empty %}
               <button class="spread-btn" onclick="javascript:spread({{ count }})">
-                <label id="spread-icon-{{ count }}" class="material-icons">arrow_right</label>
+                <label id="spread-icon-{{ count }}" class="material-icons" style="font-size:36px;">arrow_right</label>
               </button>
             {% endif %}
           </div>

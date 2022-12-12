@@ -203,7 +203,17 @@ const toggleClass = (element, ...cls) => {
       toc.classList.remove('toc-hide');
       toc.classList.add('toc-show');
     }
+    //
+    var location = toc.offsetTop;
 
+    window.addEventListener('scroll', function(){
+      if (window.scrollY >= location){
+        toc.classList.add('fixed');
+      }else{
+        toc.classList.remove('fixed');
+      }
+    });
+    //
     main.querySelectorAll(FN_SEL).forEach((li) => (li.tabIndex = 0));
 
     main
