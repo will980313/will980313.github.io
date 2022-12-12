@@ -22,13 +22,3 @@ hide_description: true
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 ---
-> ## **카테고리**
->
->[**수학**](/math/)
->
->[**머신러닝**](/ml/)
->
->[**딥러닝**](/dl/)
->
->[**논문**](/paper/)  
-

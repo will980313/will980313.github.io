@@ -29,11 +29,11 @@ redirect_from:
 
 금오공과대학교  
 컴퓨터공학과 졸업예정
-## RESRARCH INTEREST
+## RESEARCH INTEREST
 ---
 
 Computer Vision, Natural Language Processing, Time Series Forecasting
-## REDEARCH EXPERIENCE
+## RESEARCH EXPERIENCE
 --- 
 >An Intensity Controlled Review Dataset Construction for Automatic Review Generation  
 >2020/9 ~ 2020/12  
