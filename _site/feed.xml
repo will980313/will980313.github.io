@@ -1,467 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-12-12T01:24:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">인공지능 공부방</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
-</subtitle><author><name>이 주언</name><email>will980313@gmail.com</email></author><entry><title type="html">Introducing Hydejack 9</title><link href="http://localhost:4000/study/dl/2020-07-03-hydejack-9/" rel="alternate" type="text/html" title="Introducing Hydejack 9" /><published>2020-07-03T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/study/dl/hydejack-9</id><content type="html" xml:base="http://localhost:4000/study/dl/2020-07-03-hydejack-9/"><![CDATA[<p class="lead">Version 9 is the most complete version of Hydejack yet.</p>
-
-<p><a href="#linking-in-style">Modernized</a> <a href="#whats-in-the-cards">design</a>, <a href="#ready-for-the-big-screen">big headlines</a>, big new features: <a href="#built-in-search">Built-In Search</a>, <a href="#sticky-table-of-contents">Sticky Table of Contents</a>, and <a href="#auto-hiding-navbar">Auto-Hiding Navbar</a>. That <a href="#and-much-more">and more</a> is Hydejack 9.</p>
-
-<ul class="large-only" id="markdown-toc">
-  <li><a href="#linking-in-style" id="markdown-toc-linking-in-style">Linking in Style</a></li>
-  <li><a href="#ready-for-the-big-screen" id="markdown-toc-ready-for-the-big-screen">Ready for the Big Screen</a></li>
-  <li><a href="#whats-in-the-cards" id="markdown-toc-whats-in-the-cards">What’s in the Cards?</a></li>
-  <li><a href="#built-in-search" id="markdown-toc-built-in-search">Built-In Search</a></li>
-  <li><a href="#auto-hiding-navbar" id="markdown-toc-auto-hiding-navbar">Auto-Hiding Navbar</a></li>
-  <li><a href="#sticky-table-of-contents" id="markdown-toc-sticky-table-of-contents">Sticky Table of Contents</a></li>
-  <li><a href="#and-much-more" id="markdown-toc-and-much-more">…and much more</a></li>
-  <li><a href="#even-more-to-come" id="markdown-toc-even-more-to-come">Even More to Come</a></li>
-  <li><a href="#get-it-now" id="markdown-toc-get-it-now">Get It Now</a></li>
-</ul>
-
-<h2 id="linking-in-style">Linking in Style</h2>
-
-<p>Ever since the introduction of Dark Mode, link styles have been a bit of an issue. Specifically, finding an accent color that worked on both light and dark backgrounds was the problem. With Hydejack 9, the <a href="#linking-in-style">link style</a> has been revamped so that legibility is no longer tied to the choice of accent_color, giving you much more freedom in creating a unique design flavor for your site.</p>
-
-<h2 id="ready-for-the-big-screen">Ready for the Big Screen</h2>
-
-<p>The theme on which Hydejack is based was designed for a different era of the web. Hydejack has inherited many of its limitations, but over time I’ve made adjustments, such as centering the content column for better reading ergonomics.</p>
-
-<p>With version 9, Hydejack takes full advantage of large displays. Whether it’s design indulgences such as oversized headlines, or quality of life improvements such as a floating table of contents, Hydejack now finds use for all that extra screen real estate<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
-
-<h2 id="whats-in-the-cards">What’s in the Cards?</h2>
-
-<p>Hydejack 9 now lets you use content cards for both projects and posts. 
-The cards have been redesigned with a new hover style and drop shadows and they retain their unique transition-to-next-page animations, which now also work on the <code class="language-plaintext highlighter-rouge">blog</code> layout. The new <code class="language-plaintext highlighter-rouge">grid</code> layout lets you do that.</p>
-
-<p>Good images are key to making the most out of content cards. For that reason, a <a href="../../docs/basics.md#adding-images">chapter on images</a> has been added to the documentation.</p>
-
-<h2 id="built-in-search">Built-In Search</h2>
-
-<p>Hydejack now has Built-In Search. It even works offline. I’ve been prototyping many approaches and eventually settled on a fully client-side, off-the-main thread solution that perfectly fits the use case of personal sites and shows surprisingly good results<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
-
-<p>The new search UI is custom made for Hydejack and shows beautiful previews of your posts and pages, right on top of your regular content.</p>
-
-<p>Together with the Auto-Hiding Navbar, your entire content library is now only a couple of keystrokes away.</p>
-
-<h2 id="auto-hiding-navbar">Auto-Hiding Navbar</h2>
-
-<p>A navbar that’s there when you need it, and disappears when you don’t. Simple as that.</p>
-
-<h2 id="sticky-table-of-contents">Sticky Table of Contents</h2>
-
-<p>Already a staple on so many sites on the web, this pattern is now also available in Hydejack. 
-What’s unique about it is that it simply picks up the table of contents already created by kramdown’s <code class="language-plaintext highlighter-rouge">{:toc}</code> tag and transparently upgrades it to a fully dynamic version.</p>
-
-<h2 id="and-much-more">…and much more</h2>
-
-<p>Other noteworthy changes include:</p>
-<ul>
-  <li>Support for Jekyll 4</li>
-  <li>Choice between MathJax and KaTeX for math rendering</li>
-  <li>Use of <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> for drastically improved page building speeds</li>
-  <li>New variables configuration file — adjust content width, sidebar width, font size, etc…</li>
-  <li>…and the option to disable grouping projects by year.</li>
-</ul>
-
-<p>Read the the <a href="../../CHANGELOG.md" class="heading flip-title">CHANGELOG</a> for the full scope of features and improvements made in Hydejack 9.
-Maybe just glance at it to confirm that it is indeed a pretty long list.</p>
-
-<h2 id="even-more-to-come">Even More to Come</h2>
-
-<p>New features for 9.1 are already lined up. Code block headers and code line highlights for even better technical blogging, as well as download buttons on the resume page for PDF, vCard, and Resume JSON are just around the corner.</p>
-
-<h2 id="get-it-now">Get It Now</h2>
-<p>The Free Version of Hydejack is now availabe on <a href="https://rubygems.org/gems/jekyll-theme-hydejack">RubyGems</a>
-and for the first time also on <a href="https://github.com/hydecorp/hydejack/packages">GitHub Packages</a>. 
-The source code is available on <a href="https://github.com/hydecorp/hydejack">GitHub</a> as always.</p>
-
-<p>The PRO Version is scheduled to release on July 7th on Gumroad. Pre-Orders are open now:</p>
-
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>If you are a fan of the old two-column layout, or don’t like modern design tropes such as mega headlines, Hydejack lets you revert these changes on a case-by-case basis via configuration options. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-
-      <p>Search was mainly tested for English and German. Please let me know about issues in other languages. 
-  While I’ve tried to find a multi-language solution, most showed drastically worse  results for the English base case.
-  If you’re technically inclined, you can adopt the code located in <code class="language-plaintext highlighter-rouge">_includes/js/search-worker.js</code> to your needs. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="dl" /><summary type="html"><![CDATA[Version 9 is the most complete version of Hydejack yet. Modernized design, big headlines, and big new features.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/jeremy-bishop@0,5x.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content III</title><link href="http://localhost:4000/study/math/2018-06-01-content-iii/" rel="alternate" type="text/html" title="Example Content III" /><published>2018-06-01T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/study/math/content-iii</id><content type="html" xml:base="http://localhost:4000/study/math/2018-06-01-content-iii/"><![CDATA[<p>Hydejack offers a few additional features to markup your markdown.
-Don’t worry, these are merely CSS classes added with kramdown’s <code class="language-plaintext highlighter-rouge">{:...}</code> syntax,
-so that your content remains compatible with other Jekyll themes.</p>
-
-<h2 id="large-tables">Large Tables</h2>
-
-<table class="scroll-table">
-  <thead>
-    <tr>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-      <th>Default aligned</th>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-      <td>First body part</td>
-      <td style="text-align: left">Second cell</td>
-      <td style="text-align: center">Third cell</td>
-      <td style="text-align: right">fourth cell</td>
-    </tr>
-    <tr>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-      <td>Second line</td>
-      <td style="text-align: left">foo</td>
-      <td style="text-align: center"><strong>strong</strong></td>
-      <td style="text-align: right">baz</td>
-    </tr>
-    <tr>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-      <td>Third line</td>
-      <td style="text-align: left">quux</td>
-      <td style="text-align: center">baz</td>
-      <td style="text-align: right">bar</td>
-    </tr>
-    <tr>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Second body</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>2 line</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-    <tr>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-      <td>Footer row</td>
-      <td style="text-align: left"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: right"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="code-blocks">Code blocks</h2>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="math">Math</h2>
-<p>Lorem ipsum \(f(x) = x^2\).</p>
-
-\[\begin{aligned}
-  \phi(x,y) &amp;= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &amp;= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &amp;= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  &amp; \cdots &amp; \phi(e_1, e_n) \\
-                 \vdots          &amp; \ddots &amp; \vdots         \\
-                 \phi(e_n, e_1)  &amp; \cdots &amp; \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}\]
-
-<h2 id="message-boxes">Message boxes</h2>
-<p class="message"><strong>NOTE</strong>: You can add a message box.</p>
-
-<h2 id="large-text">Large text</h2>
-<p class="lead">You can add large text.</p>
-
-<h2 id="large-images">Large images</h2>
-<p><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" /></p>
-
-<h2 id="captions-to-images">Captions to images</h2>
-<p class="figure"><img src="https://via.placeholder.com/800x100" alt="Full-width image" class="lead" width="800" height="100" />
-A caption to an image.</p>
-
-<h2 id="large-quotes">Large quotes</h2>
-<blockquote class="lead">
-  <p>You can make a quote “pop out”.</p>
-</blockquote>
-
-<h2 id="faded-text">Faded text</h2>
-<p class="faded">I’m faded, faded, faded.</p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="math" /><summary type="html"><![CDATA[A page showing Hydejack-specific markdown content.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-iii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example Content II</title><link href="http://localhost:4000/study/ml/2017-11-23-content-ii/" rel="alternate" type="text/html" title="Example Content II" /><published>2017-11-23T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/study/ml/content-ii</id><content type="html" xml:base="http://localhost:4000/study/ml/2017-11-23-content-ii/"><![CDATA[<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
-
-<p>There should be whitespace between paragraphs.</p>
-
-<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.</p>
-
-<p><a href="another-page">Link to another page</a>.</p>
-
-<ul class="large-only" id="markdown-toc">
-  <li><a href="#header-2" id="markdown-toc-header-2">Header 2</a>    <ul>
-      <li><a href="#header-3" id="markdown-toc-header-3">Header 3</a>        <ul>
-          <li><a href="#header-4" id="markdown-toc-header-4">Header 4</a>            <ul>
-              <li><a href="#header-5" id="markdown-toc-header-5">Header 5</a>                <ul>
-                  <li><a href="#header-6" id="markdown-toc-header-6">Header 6</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><a href="#theres-a-horizontal-rule-below-this" id="markdown-toc-theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</a></li>
-      <li><a href="#here-is-an-unordered-list" id="markdown-toc-here-is-an-unordered-list">Here is an unordered list:</a></li>
-      <li><a href="#and-an-ordered-list" id="markdown-toc-and-an-ordered-list">And an ordered list:</a></li>
-      <li><a href="#and-a-nested-list" id="markdown-toc-and-a-nested-list">And a nested list:</a></li>
-      <li><a href="#small-image" id="markdown-toc-small-image">Small image</a></li>
-      <li><a href="#large-image" id="markdown-toc-large-image">Large image</a></li>
-      <li><a href="#definition-lists" id="markdown-toc-definition-lists">Definition lists</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="header-2">Header 2</h2>
-
-<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
-
-<h3 id="header-3">Header 3</h3>
-
-<blockquote>
-  <p>This is a blockquote following a header.</p>
-
-  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
-</blockquote>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
-<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">./lang/</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">l</span><span class="p">)</span>
-  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
-<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
-  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<h4 id="header-4">Header 4</h4>
-
-<ul>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-</ul>
-
-<h5 id="header-5">Header 5</h5>
-
-<ol>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
-
-<h6 id="header-6">Header 6</h6>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">head1</th>
-      <th style="text-align: left">head two</th>
-      <th style="text-align: left">three</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good swedish fish</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">out of stock</td>
-      <td style="text-align: left">good and plenty</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
-      <td style="text-align: left">hmm</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
-      <td style="text-align: left">yumm</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
-
-<hr />
-
-<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
-
-<ul>
-  <li>Item foo</li>
-  <li>Item bar</li>
-  <li>Item baz</li>
-  <li>Item zip</li>
-</ul>
-
-<h3 id="and-an-ordered-list">And an ordered list:</h3>
-
-<ol>
-  <li>Item one</li>
-  <li>Item two</li>
-  <li>Item three</li>
-  <li>Item four</li>
-</ol>
-
-<h3 id="and-a-nested-list">And a nested list:</h3>
-
-<ul>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item
-        <ul>
-          <li>level 3 item</li>
-          <li>level 3 item</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item</li>
-</ul>
-
-<h3 id="small-image">Small image</h3>
-
-<p><img src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" alt="" /></p>
-
-<h3 id="large-image">Large image</h3>
-
-<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="" /></p>
-
-<h3 id="definition-lists">Definition lists</h3>
-
-<dl>
-  <dt>Name</dt>
-  <dd>Godzilla</dd>
-  <dt>Born</dt>
-  <dd>1952</dd>
-  <dt>Birthplace</dt>
-  <dd>Japan</dd>
-  <dt>Color</dt>
-  <dd>Green</dd>
-</dl>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. Or is it?
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="ml" /><summary type="html"><![CDATA[A page showing how regular markdown content is styled in Hydejack.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/example-content-ii.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Config</title><link href="http://localhost:4000/project/2012-02-07-config/" rel="alternate" type="text/html" title="Config" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:51+09:00</updated><id>http://localhost:4000/project/config</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-config/"><![CDATA[<p>Once Jekyll is running, you can start with basic configuration by adding various entries to <code class="language-plaintext highlighter-rouge">_config.yml</code>. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko" /><updated>2022-12-13T00:15:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">인공지능 공부방</title><subtitle>Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.
+</subtitle><author><name>이 주언</name><email>will980313@gmail.com</email></author><entry><title type="html">Config</title><link href="http://localhost:4000/study/2012-02-07-config/" rel="alternate" type="text/html" title="Config" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-12T21:51:54+09:00</updated><id>http://localhost:4000/study/config</id><content type="html" xml:base="http://localhost:4000/study/2012-02-07-config/"><![CDATA[<p>Once Jekyll is running, you can start with basic configuration by adding various entries to <code class="language-plaintext highlighter-rouge">_config.yml</code>. 
 Besides the documentation here, you can also read the <a href="https://github.com/hydecorp/hydejack-starter-kit/blob/v9/_config.yml">annotated config file</a>.</p>
 
 <p class="note">When making changes to <code class="language-plaintext highlighter-rouge">_config.yml</code>, it is necessary to restart the Jekyll process for changes to take effect.</p>
@@ -1026,389 +564,120 @@ provide your <a href="https://tinyletter.com/">Tinyletter</a> username to the <c
 
 <p>Finally, setting <code class="language-plaintext highlighter-rouge">always</code> will cause dark mode to become the default theme at all times (combine with <code class="language-plaintext highlighter-rouge">dynamic: false</code>).</p>
 
-<p class="read-more">Continue with <a href="basics.md" class="heading flip-title">Basics</a></p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="project" /><summary type="html"><![CDATA[This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.]]></summary></entry><entry><title type="html">Advanced</title><link href="http://localhost:4000/project/2012-02-07-advanced/" rel="alternate" type="text/html" title="Advanced" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:15+09:00</updated><id>http://localhost:4000/project/advanced</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-advanced/"><![CDATA[<p>This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.</p>
+<p class="read-more">Continue with <a href="basics.md" class="heading flip-title">Basics</a></p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="paper" /><summary type="html"><![CDATA[This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.]]></summary></entry><entry><title type="html">Install</title><link href="http://localhost:4000/project/2012-02-07-install/" rel="alternate" type="text/html" title="Install" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-12T21:51:12+09:00</updated><id>http://localhost:4000/project/install</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-install/"><![CDATA[<p>How you install Hydejack depends on whether you <a href="#new-sites">start a new site</a>, 
+or change the theme of <a href="#existing-sites">an existing site</a>.</p>
 
 <ol id="markdown-toc">
-  <li><a href="#enabling-offline-support" id="markdown-toc-enabling-offline-support">Enabling offline support</a>    <ol>
-      <li><a href="#how-offline-storage-works" id="markdown-toc-how-offline-storage-works">How offline storage works</a></li>
+  <li><a href="#new-sites" id="markdown-toc-new-sites">New sites</a></li>
+  <li><a href="#existing-sites" id="markdown-toc-existing-sites">Existing sites</a>    <ol>
+      <li><a href="#troubleshooting" id="markdown-toc-troubleshooting">Troubleshooting</a></li>
     </ol>
   </li>
-  <li><a href="#adding-a-custom-social-media-icon" id="markdown-toc-adding-a-custom-social-media-icon">Adding a custom social media icon</a>    <ol>
-      <li><a href="#creating-the-icon-font" id="markdown-toc-creating-the-icon-font">Creating the icon font</a></li>
-      <li><a href="#adding-the-platforms-metadata" id="markdown-toc-adding-the-platforms-metadata">Adding the platform’s metadata</a></li>
-    </ol>
-  </li>
-  <li><a href="#how-css-is-organized-in-hydejack" id="markdown-toc-how-css-is-organized-in-hydejack">How CSS is organized in Hydejack</a></li>
-</ol>
-
-<h2 id="enabling-offline-support">Enabling offline support</h2>
-<p>Hydejack v8 introduces experimental “cache as you go” offline support. This is implemented via the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker API</a>, a new browser standard that is now supported in the latest versions of all major browsers. However, it is a very powerful feature and should be used with a lot of care.</p>
-
-<p>Enabling this feature requires that your content meets the following criteria:</p>
-
-<ul>
-  <li>Content doesn’t change between deploys (e.g. manually adding things to <code class="language-plaintext highlighter-rouge">_site</code> etc.)</li>
-  <li>All assets in <code class="language-plaintext highlighter-rouge">assets</code> are immutable, i.e. they never change (when changing a file in assets, it needs to have a new name and links need to point to the new file).</li>
-  <li>The site is mostly self-contained, i.e. assets are served from the same domain (offline support will not download assets form external sites by default)</li>
-  <li>The site is served via HTTPS (this is a Service Worker requirement)</li>
-</ul>
-
-<p>To enable this feature, create a <code class="language-plaintext highlighter-rouge">sw.js</code> file in the root of your project and add the following content:</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">---</span>
-<span class="o">---</span>
-<span class="nx">importScripts</span><span class="p">(</span><span class="dl">"</span><span class="s2">{{ '/assets/js/sw.js' | relative_url }}?t={{ site.time | date_to_xmlschema }}</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div>
-
-<p>This will load the main service worker script from Hydejack’s assets. The <code class="language-plaintext highlighter-rouge">site.time</code> part is necessary to make the service worker “byte different” every time you create a new build of your site, which triggers an update.</p>
-
-<p>In your <code class="language-plaintext highlighter-rouge">config.yml</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key, add the following:</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">offline</span><span class="pi">:</span>
-  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
-  <span class="na">cache_version</span><span class="pi">:</span> <span class="m">1</span>
-</code></pre></div></div>
-
-<p>The current implementation does not cache resources from external domains. There is now way of knowing if external sites conform to the conditions mentioned above, hence caching can be problematic and result in unexpected behavior.</p>
-
-<p>For example, Google Analytics uses GET requests to send page views, each of which would be cached by the service worker without this policy. Frequently updating images, such as badges would never change.</p>
-
-<p><img src="https://badge.fury.io/rb/jekyll-theme-hydejack.svg" alt="Gem Version" /></p>
-
-<p>However, if you include resources that are hosted on another domain and don’t change, you can add the <code class="language-plaintext highlighter-rouge">sw-cache</code> query parameter to the URL, e.g.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://upload.wikimedia.org/wikipedia/commons/b/b1/57_Chevy_210.jpg?sw-cache
-</code></pre></div></div>
-
-<p>This will cause them to be cached like resources from the assets folder.</p>
-
-<p>If you want to serve a file from the <code class="language-plaintext highlighter-rouge">assets</code> folder but NOT cache it for offline use, add the <code class="language-plaintext highlighter-rouge">no-cache</code> query parameter instead:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/assets/lfs/download.bin?no-cache
-</code></pre></div></div>
-
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/57_Chevy_210.jpg?sw-cache" alt="57 Chevy" /></p>
-
-<h3 id="how-offline-storage-works">How offline storage works</h3>
-
-<p>Hydejack’s custom service worker implementation stores files for offline use on three different levels:</p>
-
-<dl>
-  <dt>Shell</dt>
-  <dd>The shell files are the core Hydejack files (CSS, JS) that only change between version updates.
-If you made changes to any of these after enabling offline support, you must force an update by bumping the <code class="language-plaintext highlighter-rouge">cache_version</code> number in the config file.</dd>
-  <dt>Assets</dt>
-  <dd><em>These are presumed to be immutable.</em> In other words, every file is cached indefinitely. E.g.: If you want to update an image after enabling offline support, add the image under a different name and change the link in the content. Alternatively, you can bump the <code class="language-plaintext highlighter-rouge">cache_version</code>, but this will remove all other cached files from the asset cache.</dd>
-  <dt>Content</dt>
-  <dd>The content cache exploits the fact that your content can’t change between builds, so that it can be stored for offline use until you upload a new build. For now, the entire content cache is discarded every time you publish new content (future versions could cache them based on last modified dates).</dd>
-</dl>
-
-<p>Other things to note are that the implementation will always cache the pages listed under <code class="language-plaintext highlighter-rouge">legal</code>, as well as the <code class="language-plaintext highlighter-rouge">404.html</code> page, which will be shown when the user is offline.</p>
-
-<h2 id="adding-a-custom-social-media-icon">Adding a custom social media icon</h2>
-<p>Hydejack includes a number of social media icons by default (in fact, everything that is provided by <a href="https://icomoon.io/">IcoMoon</a>), but since the landscape is always changing, it is likely that a platform that is important to you will be missing at some point.</p>
-
-<p class="note">You can add any platform by simply providing a complete URL. However, a fallback icon <span class="icon-link"></span> will be used.</p>
-
-<h3 id="creating-the-icon-font">Creating the icon font</h3>
-<p>In order to add a custom social media icon you have to use the <a href="https://icomoon.io/app/">IcoMoon App</a> (free) to create a custom icon webfont. However, it is important that the generated font include all icons already in use by Hydejack. For this purpose, find the <code class="language-plaintext highlighter-rouge">selection.json</code> in <a href="https://github.com/hydecorp/hydejack/blob/v6/assets/icomoon/selection.json"><code class="language-plaintext highlighter-rouge">assets/icomoon/selection.json</code></a> and upload it to the app via “Import Icons”.
-Then, use the app to add your icon(s).
-Consult the <a href="https://icomoon.io/#docs">IcoMoon docs</a> for additional help.</p>
-
-<p>Once you’ve created and downloaded the icon font form IconMoon, replace the <code class="language-plaintext highlighter-rouge">icomoon</code> folder in <code class="language-plaintext highlighter-rouge">assets</code> in its entirety. Keep in mind that future updates of Hydejack will override this folder.</p>
-
-<h3 id="adding-the-platforms-metadata">Adding the platform’s metadata</h3>
-<p>For the second step it is necessary to add the network’s metadata to <code class="language-plaintext highlighter-rouge">_data/social.yml</code>.
-An entry looks like:</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">deviantart</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">DeviantArt</span>
-  <span class="na">icon</span><span class="pi">:</span> <span class="s">icon-deviantart</span>
-  <span class="na">prepend</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://"</span>
-  <span class="na">append</span><span class="pi">:</span> <span class="s2">"</span><span class="s">.deviantart.com"</span>
-</code></pre></div></div>
-
-<dl>
-  <dt><code class="language-plaintext highlighter-rouge">name</code></dt>
-  <dd>The name of the network. Used for the title attribute and screen readers.</dd>
-  <dt><code class="language-plaintext highlighter-rouge">icon</code></dt>
-  <dd>The icon CSS class. Can be chosen during the IcoMoon creation process.</dd>
-  <dt><code class="language-plaintext highlighter-rouge">prepend</code></dt>
-  <dd>Optional. A string that is prepended to the username to form the link to the profile. If the final URL should be <code class="language-plaintext highlighter-rouge">https://&lt;username&gt;.deviantart.com</code>, this would be <code class="language-plaintext highlighter-rouge">https://</code></dd>
-  <dt><code class="language-plaintext highlighter-rouge">append</code></dt>
-  <dd>Optional. A string that is appended to the username to form the link to the profile. If the final URL should be <code class="language-plaintext highlighter-rouge">https://&lt;username&gt;.deviantart.com</code>, this would be <code class="language-plaintext highlighter-rouge">.deviantart.com</code>.</dd>
-</dl>
-
-<h2 id="how-css-is-organized-in-hydejack">How CSS is organized in Hydejack</h2>
-<p>Hydejack takes a quite unique approach to CSS, which is motivated by the ability to
-inline essential CSS rules in a <code class="language-plaintext highlighter-rouge">style</code> tag in the <code class="language-plaintext highlighter-rouge">&lt;head/&gt;</code> of a page (to increase the loading speed),
-while serving the rest in a separate file.</p>
-
-<p>The styles are written in SCSS and are located in the <code class="language-plaintext highlighter-rouge">_sass</code> folder, which looks like</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── hydejack
-│   ├── __inline__
-│   ├── __link__
-│   ├── _base.pre.scss
-│   ├── ...
-│   └── _social.pre.scss
-├── pooleparty
-│   ├── __inline__
-│   ├── __link__
-│   ├── _base.pre.scss
-│   ├── ...
-│   └── _type.pre.scss
-├── mixins.scss
-├── my-inline.scss
-├── my-style.scss
-├── syntax.scss
-└── variables.scss
-</code></pre></div></div>
-
-<p>The style rules are organized alongside components (or rather, topics) like “sidebar” and “footer”.
-Further, there are two separate frameworks, “pooleparty” and “hydejack”,
-which grew out of the original <a href="http://getpoole.com/">Poole</a> and <a href="http://hyde.getpoole.com/">Hyde</a> projects.
-Poole/party contains more general style rules, while Hyde/jack contains those that more are specific to the theme.
-However, this separation has blurred over time.</p>
-
-<p>Inside those folders, you will notice the <code class="language-plaintext highlighter-rouge">__inline__</code> and <code class="language-plaintext highlighter-rouge">__link__</code> folders.
-The unfriendly names are intentional, because their contents are generated by a script and shouldn’t be modified directly.
-The source files are located in the same folder and end with <code class="language-plaintext highlighter-rouge">.pre.scss</code>.
-They are fully valid SCSS files, but contain comments that mark which lines should be inlined and which should be fetched asynchronously.</p>
-
-<p>The rules are as follows:</p>
-<ul>
-  <li>Every line between <code class="language-plaintext highlighter-rouge">// &lt;&lt;&lt; inline </code> and <code class="language-plaintext highlighter-rouge">// &gt;&gt;&gt;</code> will be inlined</li>
-  <li>Every line between <code class="language-plaintext highlighter-rouge">// &lt;&lt;&lt; link </code> and <code class="language-plaintext highlighter-rouge">// &gt;&gt;&gt;</code> will be linked</li>
-  <li>Every line that isn’t contained in a block and ends with <code class="language-plaintext highlighter-rouge">// inline</code> will be inlined</li>
-  <li>Every line that isn’t contained in a block and ends with <code class="language-plaintext highlighter-rouge">// link</code> will be linked</li>
-  <li>Every line for which none of the above applies will be included in both.</li>
-</ul>
-
-<p>The actual splitting happen with the <code class="language-plaintext highlighter-rouge">.scripts/build-css.sh</code> script (requires node.js 8+).
-You can run the script once by using</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npm run build:css
-</code></pre></div></div>
-
-<p>or rebuild the CSS on every file change</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npm run watch:css
-</code></pre></div></div>
-
-<p>Note that <code class="language-plaintext highlighter-rouge">my-inline.scss</code> and <code class="language-plaintext highlighter-rouge">my-style.scss</code> are not affected by this.
-Also, since all files are valid SCSS, the splitting part is entirely optional.
-If you would like to build just one regular CSS file, add</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
-  <span class="na">no_inline_css</span><span class="pi">:</span> <span class="no">true</span>
-</code></pre></div></div>
-
-<p>to your config file.</p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="project" /><summary type="html"><![CDATA[This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.]]></summary></entry><entry><title type="html">Example Content</title><link href="http://localhost:4000/study/paper/2012-02-07-content/" rel="alternate" type="text/html" title="Example Content" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-02-06T20:43:30+09:00</updated><id>http://localhost:4000/study/paper/content</id><content type="html" xml:base="http://localhost:4000/study/paper/2012-02-07-content/"><![CDATA[<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
-
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-
-<h2 id="inline-html-elements">Inline <abbr title="HyperText Markup Language">HTML</abbr> elements</h2>
-
-<p><abbr title="HyperText Markup Language">HTML</abbr> defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-
-<ul>
-  <li><strong>To bold text</strong>, use <code class="language-plaintext highlighter-rouge">**To bold text**</code>.</li>
-  <li><em>To italicize text</em>, use <code class="language-plaintext highlighter-rouge">*To italicize text*</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should be defined like this <code class="language-plaintext highlighter-rouge">*[HTML]: HyperText Markup Language</code>.</li>
-  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code class="language-plaintext highlighter-rouge">~~deleted~~</code> and <ins>inserted</ins> text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.</li>
-</ul>
-
-<p>Most of these elements are styled by browsers with few modifications on our part.</p>
-
-<h2 id="heading-2">Heading 2</h2>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-
-<h3 id="heading-3">Heading 3</h3>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h4 id="heading-4">Heading 4</h4>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h5 id="heading-5">Heading 5</h5>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h6 id="heading-6">Heading 6</h6>
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor.</p>
-
-<h2 id="code">Code</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis <code class="language-plaintext highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those</span>
-<span class="c1">// arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="dl">"</span><span class="s2">a</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">b</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">return a + b</span><span class="dl">"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<h2 id="lists">Lists</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-<ul>
-  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-  <li>Donec id elit non mi porta gravida at eget metus.</li>
-  <li>Nulla vitae elit libero, a pharetra augue.</li>
-</ul>
-
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-
-<ol>
-  <li>Vestibulum id ligula porta felis euismod semper.</li>
-  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-</ol>
-
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-
-<dl>
-  <dt>HyperText Markup Language (<abbr title="HyperText Markup Language">HTML</abbr>)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-  <dt>Cascading Style Sheets (<abbr title="Cascading Style Sheets">CSS</abbr>)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-  <dt>JavaScript (<abbr title="JavaScript">JS</abbr>)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
-
-<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
-
-<p><img src="https://via.placeholder.com/800x400" alt="800x400" title="Large example image" /></p>
-
-<p><img src="https://via.placeholder.com/400x200" alt="400x200" title="Medium example image" /></p>
-
-<p><img src="https://via.placeholder.com/200x200" alt="200x200" title="Small example image" /></p>
-
-<h2 id="tables">Tables</h2>
-
-<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Name</th>
-      <th style="text-align: left">Upvotes</th>
-      <th style="text-align: left">Downvotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Alice</td>
-      <td style="text-align: left">10</td>
-      <td style="text-align: left">11</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Bob</td>
-      <td style="text-align: left">4</td>
-      <td style="text-align: left">3</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Charlie</td>
-      <td style="text-align: left">7</td>
-      <td style="text-align: left">9</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td style="text-align: left">Totals</td>
-      <td style="text-align: left">21</td>
-      <td style="text-align: left">23</td>
-    </tr>
-  </tfoot>
-</table>
-
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="paper" /><summary type="html"><![CDATA[Howdy! This is an example blog post that shows several types of HTML content supported in this theme.]]></summary></entry><entry><title type="html">Build</title><link href="http://localhost:4000/project/2012-02-07-build/" rel="alternate" type="text/html" title="Build" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:04+09:00</updated><id>http://localhost:4000/project/build</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-build/"><![CDATA[<p>This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.</p>
-
-<ol id="markdown-toc">
-  <li><a href="#building-locally" id="markdown-toc-building-locally">Building locally</a></li>
-  <li><a href="#building-locally-with-latent-semantic-analysis" id="markdown-toc-building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</a></li>
   <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
+  <li><a href="#running-locally" id="markdown-toc-running-locally">Running locally</a></li>
 </ol>
 
-<h2 id="building-locally">Building locally</h2>
-<p>When building Hydejack it is important to set the environment variable <code class="language-plaintext highlighter-rouge">JEKYLL_ENV</code> to <code class="language-plaintext highlighter-rouge">production</code>.
-Otherwise the output will not be minified. Building itself happens via Jekyll’s <code class="language-plaintext highlighter-rouge">build</code> command.</p>
+<h2 id="new-sites">New sites</h2>
+<p>For new sites, the best way to get started with Hydejack is via the Starter Kit. 
+It comes with a documented config file and example content that gets you started quickly.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build
+<p>If you have a GitHub account, fork the <a href="https://github.com/hydecorp/hydejack-starter-kit">Hydejack Starter Kit</a> repository. 
+Otherwise <a href="https://github.com/hydecorp/hydejack-starter-kit/archive/v9.1.6.zip">download the Starter Kit</a> and unzip them somewhere on your machine.</p>
+
+<p>If you bought the <strong>PRO Version</strong> of Hydejack, use the contents of the <code class="language-plaintext highlighter-rouge">starter-kit</code> folder instead.</p>
+
+<p class="note">In addition to the docs here, you can follow the quick start guide in the Starter Kit.</p>
+
+<p>You can now jump to <a href="#running-locally">running locally</a>.</p>
+
+<p class="note">You can now also <a href="https://app.netlify.com/start/deploy?repository=https://github.com/hydecorp/hydejack-starter-kit" class="no-mark-external"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a> directly.</p>
+
+<h2 id="existing-sites">Existing sites</h2>
+<p>If you have an existing site that you’d like to upgrade to Hydejack you can install the theme via bundler.
+Add the following to your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span>
 </code></pre></div></div>
 
-<p>This will generate the finished static files in <code class="language-plaintext highlighter-rouge">_site</code>,
-which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
+<p>If you bought the <strong>PRO Version</strong> of Hydejack, copy the <code class="language-plaintext highlighter-rouge">#jekyll-theme-hydejack</code> folder into the root folder of your site,
+and add the following to your <code class="language-plaintext highlighter-rouge">Gemfile</code> instead:</p>
 
-<h2 id="building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</h2>
-<p>By default, related posts are simply the most recent posts.
-Hydejack modifies this a bit, by showing the most recent posts of the same category or tag.
-However, the results are still pretty “unrelated”.
-To provide better results, Jekyll supports <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">latent semantic analysis</a> via <a href="http://www.classifier-reborn.com/"><code class="language-plaintext highlighter-rouge">classifier-reborn</code></a>’s
-<a href="http://www.classifier-reborn.com/lsi">Latent Semantic Indexer</a></p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span><span class="p">,</span> <span class="ss">path: </span><span class="s2">"./#jekyll-theme-hydejack"</span>
+</code></pre></div></div>
 
-<p>To use the <abbr title="Latent Semantic Indexer">LSI</abbr>, you first have to disable Hydejack’s default behavior,
-by setting <code class="language-plaintext highlighter-rouge">use_lsi: true</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key in your config file.</p>
+<p class="note">The folder is prefixed with a <code class="language-plaintext highlighter-rouge">#</code> to indicate that this folder is different from regular Jekyll content. 
+The <code class="language-plaintext highlighter-rouge">#</code> char was choosen specifically because it is on of the four characters ignored by Jekyll by default (<code class="language-plaintext highlighter-rouge">.</code>, <code class="language-plaintext highlighter-rouge">_</code> , <code class="language-plaintext highlighter-rouge">#</code>, <code class="language-plaintext highlighter-rouge">~</code>).</p>
+
+<p>In your config file, change the <code class="language-plaintext highlighter-rouge">theme</code> to Hydejack:</p>
 
 <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
-<span class="na">hydejack</span><span class="pi">:</span>
-  <span class="na">use_lsi</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-hydejack</span>
 </code></pre></div></div>
 
-<p>Then, you have to run <code class="language-plaintext highlighter-rouge">jekyll build</code> with the <code class="language-plaintext highlighter-rouge">--lsi</code> flag:</p>
+<p>Hydejack comes with a default configuration file that takes care most of the configuration,
+but it pays off to check out the example config file in the Starter Kit to see what’s available.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build <span class="nt">--lsi</span>
-</code></pre></div></div>
+<p>You can now jump to <a href="#running-locally">running locally</a>.</p>
 
-<p>Note that this may take a long time.
-Once it is finished, the generated static files will be located in the <code class="language-plaintext highlighter-rouge">_site</code> directory,
-which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>If your existing site combines theme files with your content (as did previous verisons of Hydejack/PRO),
+make sure to delete the following folders:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_layouts</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_includes</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_sass</code></li>
+  <li><code class="language-plaintext highlighter-rouge">assets</code></li>
+</ul>
+
+<p>The <code class="language-plaintext highlighter-rouge">assets</code> folder most likely includes theme files as well as your personal/content files. 
+Make sure to only delete files that belong to the old theme!</p>
 
 <h2 id="github-pages">GitHub Pages</h2>
-<p>If you’re using the Starter Kit for GitHub pages, all you have to do is push your repository:</p>
+<p>If you want to build your site on <a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a>, check out the <a href="https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages"><code class="language-plaintext highlighter-rouge">gh-pages</code> branch</a> in the Hydejack Starter Kit repo.</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git add <span class="nb">.</span>
-<span class="nv">$ </span>git commit <span class="s2">"Update"</span>
-<span class="nv">$ </span>git push origin master
+<p>For existing sites, you can instead set the <code class="language-plaintext highlighter-rouge">remote_theme</code> key as follows:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">remote_theme</span><span class="pi">:</span> <span class="s">hydecorp/hydejack@v9.1.6</span>
 </code></pre></div></div>
 
-<!-- ## GitHub Pages
-To deploy to GitHub Pages, the steps are:
+<p class="note" title="Important">Make sure the <code class="language-plaintext highlighter-rouge">plugins</code> list contains <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> (create if it doesn’t exist):</p>
 
-~~~bash
-$ cd _site
-$ git init # you only need to do this once
-$ git remote add origin <github_remote_url> # you only need to do this once
-$ git add .
-$ git commit -m "Build"
-$ git push origin master:<remote_branch>
-$ cd ..
-~~~
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">plugins</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">jekyll-include-cache</span>
+</code></pre></div></div>
 
-`github_remote_url`
-: Find this on your repository's GitHub page.
+<p>To run this configuration locally, make sure the following is part of your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
 
-`remote_branch`
-: Either `master` for "user or organization pages", or `gh-pages` for "project pages"
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
+<span class="n">gem</span> <span class="s2">"github-pages"</span><span class="p">,</span> <span class="ss">group: :jekyll_plugins</span>
+<span class="n">gem</span> <span class="s2">"jekyll-include-cache"</span><span class="p">,</span> <span class="ss">group: :jekyll_plugins</span>
+</code></pre></div></div>
 
-More on [user, organization, and project pages](https://help.github.com/articles/user-organization-and-project-pages/). -->
+<p class="note">Note that Hydejack has a reduced feature set when built on GitHub Pages. 
+Specifically, using KaTeX math formulas doesn’t work when built in this way.</p>
 
-<!-- Continue with [Advanced](advanced.md){:.heading.flip-title}
-{:.read-more} -->]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="project" /><summary type="html"><![CDATA[This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.]]></summary></entry><entry><title type="html">Basics</title><link href="http://localhost:4000/project/2012-02-07-basics/" rel="alternate" type="text/html" title="Basics" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:42+09:00</updated><id>http://localhost:4000/project/basics</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-basics/"><![CDATA[<p>This chapter covers the basics of content creation with Hydejack.</p>
+<h2 id="running-locally">Running locally</h2>
+<p>Make sure you’ve <code class="language-plaintext highlighter-rouge">cd</code>ed into the directory where <code class="language-plaintext highlighter-rouge">_config.yml</code> is located.
+Before running for the first time, dependencies need to be fetched from <a href="https://rubygems.org/">RubyGems</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p class="note">If you are missing the <code class="language-plaintext highlighter-rouge">bundle</code> command, you can install Bundler by running <code class="language-plaintext highlighter-rouge">gem install bundler</code>.</p>
+
+<p>Now you can run Jekyll on your local machine:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>and point your browser to <a href="http://localhost:4000">http://localhost:4000</a> to see Hydejack in action.</p>
+
+<p class="read-more">Continue with <a href="config.md" class="heading flip-title">Config</a></p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="project" /><summary type="html"><![CDATA[How you install Hydejack depends on whether you start a new site, or change the theme of an existing site.]]></summary></entry><entry><title type="html">Basics</title><link href="http://localhost:4000/study/2012-02-07-basics/" rel="alternate" type="text/html" title="Basics" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-12T21:51:24+09:00</updated><id>http://localhost:4000/study/basics</id><content type="html" xml:base="http://localhost:4000/study/2012-02-07-basics/"><![CDATA[<p>This chapter covers the basics of content creation with Hydejack.</p>
 
 <ol id="markdown-toc">
   <li><a href="#adding-images" id="markdown-toc-adding-images">Adding images</a></li>
@@ -2016,117 +1285,254 @@ For best results, check the following options in the print popup:</p>
 
 <p><img src="/assets/img/docs/chrome-print.png" alt="Uncheck Headers and footers, check Background graphics" width="299" height="588" loading="lazy" /></p>
 
-<p class="read-more">Continue with <a href="writing.md" class="heading flip-title">Writing</a></p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="project" /><summary type="html"><![CDATA[This chapter covers the basics of content creation with Hydejack.]]></summary></entry><entry><title type="html">Install</title><link href="http://localhost:4000/project/2012-02-07-install/" rel="alternate" type="text/html" title="Install" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-10T16:55:57+09:00</updated><id>http://localhost:4000/project/install</id><content type="html" xml:base="http://localhost:4000/project/2012-02-07-install/"><![CDATA[<p>How you install Hydejack depends on whether you <a href="#new-sites">start a new site</a>, 
-or change the theme of <a href="#existing-sites">an existing site</a>.</p>
+<p class="read-more">Continue with <a href="writing.md" class="heading flip-title">Writing</a></p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="dl" /><summary type="html"><![CDATA[This chapter covers the basics of content creation with Hydejack.]]></summary></entry><entry><title type="html">Advanced</title><link href="http://localhost:4000/study/2012-02-07-advanced/" rel="alternate" type="text/html" title="Advanced" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-12T21:51:34+09:00</updated><id>http://localhost:4000/study/advanced</id><content type="html" xml:base="http://localhost:4000/study/2012-02-07-advanced/"><![CDATA[<p>This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.</p>
 
 <ol id="markdown-toc">
-  <li><a href="#new-sites" id="markdown-toc-new-sites">New sites</a></li>
-  <li><a href="#existing-sites" id="markdown-toc-existing-sites">Existing sites</a>    <ol>
-      <li><a href="#troubleshooting" id="markdown-toc-troubleshooting">Troubleshooting</a></li>
+  <li><a href="#enabling-offline-support" id="markdown-toc-enabling-offline-support">Enabling offline support</a>    <ol>
+      <li><a href="#how-offline-storage-works" id="markdown-toc-how-offline-storage-works">How offline storage works</a></li>
     </ol>
   </li>
-  <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
-  <li><a href="#running-locally" id="markdown-toc-running-locally">Running locally</a></li>
+  <li><a href="#adding-a-custom-social-media-icon" id="markdown-toc-adding-a-custom-social-media-icon">Adding a custom social media icon</a>    <ol>
+      <li><a href="#creating-the-icon-font" id="markdown-toc-creating-the-icon-font">Creating the icon font</a></li>
+      <li><a href="#adding-the-platforms-metadata" id="markdown-toc-adding-the-platforms-metadata">Adding the platform’s metadata</a></li>
+    </ol>
+  </li>
+  <li><a href="#how-css-is-organized-in-hydejack" id="markdown-toc-how-css-is-organized-in-hydejack">How CSS is organized in Hydejack</a></li>
 </ol>
 
-<h2 id="new-sites">New sites</h2>
-<p>For new sites, the best way to get started with Hydejack is via the Starter Kit. 
-It comes with a documented config file and example content that gets you started quickly.</p>
+<h2 id="enabling-offline-support">Enabling offline support</h2>
+<p>Hydejack v8 introduces experimental “cache as you go” offline support. This is implemented via the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker API</a>, a new browser standard that is now supported in the latest versions of all major browsers. However, it is a very powerful feature and should be used with a lot of care.</p>
 
-<p>If you have a GitHub account, fork the <a href="https://github.com/hydecorp/hydejack-starter-kit">Hydejack Starter Kit</a> repository. 
-Otherwise <a href="https://github.com/hydecorp/hydejack-starter-kit/archive/v9.1.6.zip">download the Starter Kit</a> and unzip them somewhere on your machine.</p>
-
-<p>If you bought the <strong>PRO Version</strong> of Hydejack, use the contents of the <code class="language-plaintext highlighter-rouge">starter-kit</code> folder instead.</p>
-
-<p class="note">In addition to the docs here, you can follow the quick start guide in the Starter Kit.</p>
-
-<p>You can now jump to <a href="#running-locally">running locally</a>.</p>
-
-<p class="note">You can now also <a href="https://app.netlify.com/start/deploy?repository=https://github.com/hydecorp/hydejack-starter-kit" class="no-mark-external"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a> directly.</p>
-
-<h2 id="existing-sites">Existing sites</h2>
-<p>If you have an existing site that you’d like to upgrade to Hydejack you can install the theme via bundler.
-Add the following to your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
-<span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span>
-</code></pre></div></div>
-
-<p>If you bought the <strong>PRO Version</strong> of Hydejack, copy the <code class="language-plaintext highlighter-rouge">#jekyll-theme-hydejack</code> folder into the root folder of your site,
-and add the following to your <code class="language-plaintext highlighter-rouge">Gemfile</code> instead:</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
-<span class="n">gem</span> <span class="s2">"jekyll-theme-hydejack"</span><span class="p">,</span> <span class="ss">path: </span><span class="s2">"./#jekyll-theme-hydejack"</span>
-</code></pre></div></div>
-
-<p class="note">The folder is prefixed with a <code class="language-plaintext highlighter-rouge">#</code> to indicate that this folder is different from regular Jekyll content. 
-The <code class="language-plaintext highlighter-rouge">#</code> char was choosen specifically because it is on of the four characters ignored by Jekyll by default (<code class="language-plaintext highlighter-rouge">.</code>, <code class="language-plaintext highlighter-rouge">_</code> , <code class="language-plaintext highlighter-rouge">#</code>, <code class="language-plaintext highlighter-rouge">~</code>).</p>
-
-<p>In your config file, change the <code class="language-plaintext highlighter-rouge">theme</code> to Hydejack:</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
-<span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-hydejack</span>
-</code></pre></div></div>
-
-<p>Hydejack comes with a default configuration file that takes care most of the configuration,
-but it pays off to check out the example config file in the Starter Kit to see what’s available.</p>
-
-<p>You can now jump to <a href="#running-locally">running locally</a>.</p>
-
-<h3 id="troubleshooting">Troubleshooting</h3>
-<p>If your existing site combines theme files with your content (as did previous verisons of Hydejack/PRO),
-make sure to delete the following folders:</p>
+<p>Enabling this feature requires that your content meets the following criteria:</p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">_layouts</code></li>
-  <li><code class="language-plaintext highlighter-rouge">_includes</code></li>
-  <li><code class="language-plaintext highlighter-rouge">_sass</code></li>
-  <li><code class="language-plaintext highlighter-rouge">assets</code></li>
+  <li>Content doesn’t change between deploys (e.g. manually adding things to <code class="language-plaintext highlighter-rouge">_site</code> etc.)</li>
+  <li>All assets in <code class="language-plaintext highlighter-rouge">assets</code> are immutable, i.e. they never change (when changing a file in assets, it needs to have a new name and links need to point to the new file).</li>
+  <li>The site is mostly self-contained, i.e. assets are served from the same domain (offline support will not download assets form external sites by default)</li>
+  <li>The site is served via HTTPS (this is a Service Worker requirement)</li>
 </ul>
 
-<p>The <code class="language-plaintext highlighter-rouge">assets</code> folder most likely includes theme files as well as your personal/content files. 
-Make sure to only delete files that belong to the old theme!</p>
+<p>To enable this feature, create a <code class="language-plaintext highlighter-rouge">sw.js</code> file in the root of your project and add the following content:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">---</span>
+<span class="o">---</span>
+<span class="nx">importScripts</span><span class="p">(</span><span class="dl">"</span><span class="s2">{{ '/assets/js/sw.js' | relative_url }}?t={{ site.time | date_to_xmlschema }}</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>This will load the main service worker script from Hydejack’s assets. The <code class="language-plaintext highlighter-rouge">site.time</code> part is necessary to make the service worker “byte different” every time you create a new build of your site, which triggers an update.</p>
+
+<p>In your <code class="language-plaintext highlighter-rouge">config.yml</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key, add the following:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">offline</span><span class="pi">:</span>
+  <span class="na">enabled</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">cache_version</span><span class="pi">:</span> <span class="m">1</span>
+</code></pre></div></div>
+
+<p>The current implementation does not cache resources from external domains. There is now way of knowing if external sites conform to the conditions mentioned above, hence caching can be problematic and result in unexpected behavior.</p>
+
+<p>For example, Google Analytics uses GET requests to send page views, each of which would be cached by the service worker without this policy. Frequently updating images, such as badges would never change.</p>
+
+<p><img src="https://badge.fury.io/rb/jekyll-theme-hydejack.svg" alt="Gem Version" /></p>
+
+<p>However, if you include resources that are hosted on another domain and don’t change, you can add the <code class="language-plaintext highlighter-rouge">sw-cache</code> query parameter to the URL, e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://upload.wikimedia.org/wikipedia/commons/b/b1/57_Chevy_210.jpg?sw-cache
+</code></pre></div></div>
+
+<p>This will cause them to be cached like resources from the assets folder.</p>
+
+<p>If you want to serve a file from the <code class="language-plaintext highlighter-rouge">assets</code> folder but NOT cache it for offline use, add the <code class="language-plaintext highlighter-rouge">no-cache</code> query parameter instead:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/assets/lfs/download.bin?no-cache
+</code></pre></div></div>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/57_Chevy_210.jpg?sw-cache" alt="57 Chevy" /></p>
+
+<h3 id="how-offline-storage-works">How offline storage works</h3>
+
+<p>Hydejack’s custom service worker implementation stores files for offline use on three different levels:</p>
+
+<dl>
+  <dt>Shell</dt>
+  <dd>The shell files are the core Hydejack files (CSS, JS) that only change between version updates.
+If you made changes to any of these after enabling offline support, you must force an update by bumping the <code class="language-plaintext highlighter-rouge">cache_version</code> number in the config file.</dd>
+  <dt>Assets</dt>
+  <dd><em>These are presumed to be immutable.</em> In other words, every file is cached indefinitely. E.g.: If you want to update an image after enabling offline support, add the image under a different name and change the link in the content. Alternatively, you can bump the <code class="language-plaintext highlighter-rouge">cache_version</code>, but this will remove all other cached files from the asset cache.</dd>
+  <dt>Content</dt>
+  <dd>The content cache exploits the fact that your content can’t change between builds, so that it can be stored for offline use until you upload a new build. For now, the entire content cache is discarded every time you publish new content (future versions could cache them based on last modified dates).</dd>
+</dl>
+
+<p>Other things to note are that the implementation will always cache the pages listed under <code class="language-plaintext highlighter-rouge">legal</code>, as well as the <code class="language-plaintext highlighter-rouge">404.html</code> page, which will be shown when the user is offline.</p>
+
+<h2 id="adding-a-custom-social-media-icon">Adding a custom social media icon</h2>
+<p>Hydejack includes a number of social media icons by default (in fact, everything that is provided by <a href="https://icomoon.io/">IcoMoon</a>), but since the landscape is always changing, it is likely that a platform that is important to you will be missing at some point.</p>
+
+<p class="note">You can add any platform by simply providing a complete URL. However, a fallback icon <span class="icon-link"></span> will be used.</p>
+
+<h3 id="creating-the-icon-font">Creating the icon font</h3>
+<p>In order to add a custom social media icon you have to use the <a href="https://icomoon.io/app/">IcoMoon App</a> (free) to create a custom icon webfont. However, it is important that the generated font include all icons already in use by Hydejack. For this purpose, find the <code class="language-plaintext highlighter-rouge">selection.json</code> in <a href="https://github.com/hydecorp/hydejack/blob/v6/assets/icomoon/selection.json"><code class="language-plaintext highlighter-rouge">assets/icomoon/selection.json</code></a> and upload it to the app via “Import Icons”.
+Then, use the app to add your icon(s).
+Consult the <a href="https://icomoon.io/#docs">IcoMoon docs</a> for additional help.</p>
+
+<p>Once you’ve created and downloaded the icon font form IconMoon, replace the <code class="language-plaintext highlighter-rouge">icomoon</code> folder in <code class="language-plaintext highlighter-rouge">assets</code> in its entirety. Keep in mind that future updates of Hydejack will override this folder.</p>
+
+<h3 id="adding-the-platforms-metadata">Adding the platform’s metadata</h3>
+<p>For the second step it is necessary to add the network’s metadata to <code class="language-plaintext highlighter-rouge">_data/social.yml</code>.
+An entry looks like:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">deviantart</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">DeviantArt</span>
+  <span class="na">icon</span><span class="pi">:</span> <span class="s">icon-deviantart</span>
+  <span class="na">prepend</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://"</span>
+  <span class="na">append</span><span class="pi">:</span> <span class="s2">"</span><span class="s">.deviantart.com"</span>
+</code></pre></div></div>
+
+<dl>
+  <dt><code class="language-plaintext highlighter-rouge">name</code></dt>
+  <dd>The name of the network. Used for the title attribute and screen readers.</dd>
+  <dt><code class="language-plaintext highlighter-rouge">icon</code></dt>
+  <dd>The icon CSS class. Can be chosen during the IcoMoon creation process.</dd>
+  <dt><code class="language-plaintext highlighter-rouge">prepend</code></dt>
+  <dd>Optional. A string that is prepended to the username to form the link to the profile. If the final URL should be <code class="language-plaintext highlighter-rouge">https://&lt;username&gt;.deviantart.com</code>, this would be <code class="language-plaintext highlighter-rouge">https://</code></dd>
+  <dt><code class="language-plaintext highlighter-rouge">append</code></dt>
+  <dd>Optional. A string that is appended to the username to form the link to the profile. If the final URL should be <code class="language-plaintext highlighter-rouge">https://&lt;username&gt;.deviantart.com</code>, this would be <code class="language-plaintext highlighter-rouge">.deviantart.com</code>.</dd>
+</dl>
+
+<h2 id="how-css-is-organized-in-hydejack">How CSS is organized in Hydejack</h2>
+<p>Hydejack takes a quite unique approach to CSS, which is motivated by the ability to
+inline essential CSS rules in a <code class="language-plaintext highlighter-rouge">style</code> tag in the <code class="language-plaintext highlighter-rouge">&lt;head/&gt;</code> of a page (to increase the loading speed),
+while serving the rest in a separate file.</p>
+
+<p>The styles are written in SCSS and are located in the <code class="language-plaintext highlighter-rouge">_sass</code> folder, which looks like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── hydejack
+│   ├── __inline__
+│   ├── __link__
+│   ├── _base.pre.scss
+│   ├── ...
+│   └── _social.pre.scss
+├── pooleparty
+│   ├── __inline__
+│   ├── __link__
+│   ├── _base.pre.scss
+│   ├── ...
+│   └── _type.pre.scss
+├── mixins.scss
+├── my-inline.scss
+├── my-style.scss
+├── syntax.scss
+└── variables.scss
+</code></pre></div></div>
+
+<p>The style rules are organized alongside components (or rather, topics) like “sidebar” and “footer”.
+Further, there are two separate frameworks, “pooleparty” and “hydejack”,
+which grew out of the original <a href="http://getpoole.com/">Poole</a> and <a href="http://hyde.getpoole.com/">Hyde</a> projects.
+Poole/party contains more general style rules, while Hyde/jack contains those that more are specific to the theme.
+However, this separation has blurred over time.</p>
+
+<p>Inside those folders, you will notice the <code class="language-plaintext highlighter-rouge">__inline__</code> and <code class="language-plaintext highlighter-rouge">__link__</code> folders.
+The unfriendly names are intentional, because their contents are generated by a script and shouldn’t be modified directly.
+The source files are located in the same folder and end with <code class="language-plaintext highlighter-rouge">.pre.scss</code>.
+They are fully valid SCSS files, but contain comments that mark which lines should be inlined and which should be fetched asynchronously.</p>
+
+<p>The rules are as follows:</p>
+<ul>
+  <li>Every line between <code class="language-plaintext highlighter-rouge">// &lt;&lt;&lt; inline </code> and <code class="language-plaintext highlighter-rouge">// &gt;&gt;&gt;</code> will be inlined</li>
+  <li>Every line between <code class="language-plaintext highlighter-rouge">// &lt;&lt;&lt; link </code> and <code class="language-plaintext highlighter-rouge">// &gt;&gt;&gt;</code> will be linked</li>
+  <li>Every line that isn’t contained in a block and ends with <code class="language-plaintext highlighter-rouge">// inline</code> will be inlined</li>
+  <li>Every line that isn’t contained in a block and ends with <code class="language-plaintext highlighter-rouge">// link</code> will be linked</li>
+  <li>Every line for which none of the above applies will be included in both.</li>
+</ul>
+
+<p>The actual splitting happen with the <code class="language-plaintext highlighter-rouge">.scripts/build-css.sh</code> script (requires node.js 8+).
+You can run the script once by using</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npm run build:css
+</code></pre></div></div>
+
+<p>or rebuild the CSS on every file change</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>npm run watch:css
+</code></pre></div></div>
+
+<p>Note that <code class="language-plaintext highlighter-rouge">my-inline.scss</code> and <code class="language-plaintext highlighter-rouge">my-style.scss</code> are not affected by this.
+Also, since all files are valid SCSS, the splitting part is entirely optional.
+If you would like to build just one regular CSS file, add</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">no_inline_css</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>to your config file.</p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="math" /><summary type="html"><![CDATA[This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.]]></summary></entry><entry><title type="html">Build</title><link href="http://localhost:4000/study/2012-02-07-build/" rel="alternate" type="text/html" title="Build" /><published>2012-02-07T00:00:00+09:00</published><updated>2022-12-12T21:51:43+09:00</updated><id>http://localhost:4000/study/build</id><content type="html" xml:base="http://localhost:4000/study/2012-02-07-build/"><![CDATA[<p>This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.</p>
+
+<ol id="markdown-toc">
+  <li><a href="#building-locally" id="markdown-toc-building-locally">Building locally</a></li>
+  <li><a href="#building-locally-with-latent-semantic-analysis" id="markdown-toc-building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</a></li>
+  <li><a href="#github-pages" id="markdown-toc-github-pages">GitHub Pages</a></li>
+</ol>
+
+<h2 id="building-locally">Building locally</h2>
+<p>When building Hydejack it is important to set the environment variable <code class="language-plaintext highlighter-rouge">JEKYLL_ENV</code> to <code class="language-plaintext highlighter-rouge">production</code>.
+Otherwise the output will not be minified. Building itself happens via Jekyll’s <code class="language-plaintext highlighter-rouge">build</code> command.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build
+</code></pre></div></div>
+
+<p>This will generate the finished static files in <code class="language-plaintext highlighter-rouge">_site</code>,
+which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
+
+<h2 id="building-locally-with-latent-semantic-analysis">Building locally with latent semantic analysis</h2>
+<p>By default, related posts are simply the most recent posts.
+Hydejack modifies this a bit, by showing the most recent posts of the same category or tag.
+However, the results are still pretty “unrelated”.
+To provide better results, Jekyll supports <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis">latent semantic analysis</a> via <a href="http://www.classifier-reborn.com/"><code class="language-plaintext highlighter-rouge">classifier-reborn</code></a>’s
+<a href="http://www.classifier-reborn.com/lsi">Latent Semantic Indexer</a></p>
+
+<p>To use the <abbr title="Latent Semantic Indexer">LSI</abbr>, you first have to disable Hydejack’s default behavior,
+by setting <code class="language-plaintext highlighter-rouge">use_lsi: true</code> under the <code class="language-plaintext highlighter-rouge">hydejack</code> key in your config file.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
+<span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">use_lsi</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Then, you have to run <code class="language-plaintext highlighter-rouge">jekyll build</code> with the <code class="language-plaintext highlighter-rouge">--lsi</code> flag:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ JEKYLL_ENV</span><span class="o">=</span>production bundle <span class="nb">exec </span>jekyll build <span class="nt">--lsi</span>
+</code></pre></div></div>
+
+<p>Note that this may take a long time.
+Once it is finished, the generated static files will be located in the <code class="language-plaintext highlighter-rouge">_site</code> directory,
+which can be deployed using the methods outlined in the <a href="https://jekyllrb.com/docs/deployment-methods/">Jekyll Documentation</a>.</p>
 
 <h2 id="github-pages">GitHub Pages</h2>
-<p>If you want to build your site on <a href="https://jekyllrb.com/docs/github-pages/">GitHub Pages</a>, check out the <a href="https://github.com/hydecorp/hydejack-starter-kit/tree/gh-pages"><code class="language-plaintext highlighter-rouge">gh-pages</code> branch</a> in the Hydejack Starter Kit repo.</p>
+<p>If you’re using the Starter Kit for GitHub pages, all you have to do is push your repository:</p>
 
-<p>For existing sites, you can instead set the <code class="language-plaintext highlighter-rouge">remote_theme</code> key as follows:</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
-<span class="na">remote_theme</span><span class="pi">:</span> <span class="s">hydecorp/hydejack@v9.1.6</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git add <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="s2">"Update"</span>
+<span class="nv">$ </span>git push origin master
 </code></pre></div></div>
 
-<p class="note" title="Important">Make sure the <code class="language-plaintext highlighter-rouge">plugins</code> list contains <code class="language-plaintext highlighter-rouge">jekyll-include-cache</code> (create if it doesn’t exist):</p>
+<!-- ## GitHub Pages
+To deploy to GitHub Pages, the steps are:
 
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `_config.yml`</span>
-<span class="na">plugins</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s">jekyll-include-cache</span>
-</code></pre></div></div>
+~~~bash
+$ cd _site
+$ git init # you only need to do this once
+$ git remote add origin <github_remote_url> # you only need to do this once
+$ git add .
+$ git commit -m "Build"
+$ git push origin master:<remote_branch>
+$ cd ..
+~~~
 
-<p>To run this configuration locally, make sure the following is part of your <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+`github_remote_url`
+: Find this on your repository's GitHub page.
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: `Gemfile`</span>
-<span class="n">gem</span> <span class="s2">"github-pages"</span><span class="p">,</span> <span class="ss">group: :jekyll_plugins</span>
-<span class="n">gem</span> <span class="s2">"jekyll-include-cache"</span><span class="p">,</span> <span class="ss">group: :jekyll_plugins</span>
-</code></pre></div></div>
+`remote_branch`
+: Either `master` for "user or organization pages", or `gh-pages` for "project pages"
 
-<p class="note">Note that Hydejack has a reduced feature set when built on GitHub Pages. 
-Specifically, using KaTeX math formulas doesn’t work when built in this way.</p>
+More on [user, organization, and project pages](https://help.github.com/articles/user-organization-and-project-pages/). -->
 
-<h2 id="running-locally">Running locally</h2>
-<p>Make sure you’ve <code class="language-plaintext highlighter-rouge">cd</code>ed into the directory where <code class="language-plaintext highlighter-rouge">_config.yml</code> is located.
-Before running for the first time, dependencies need to be fetched from <a href="https://rubygems.org/">RubyGems</a>:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
-</code></pre></div></div>
-
-<p class="note">If you are missing the <code class="language-plaintext highlighter-rouge">bundle</code> command, you can install Bundler by running <code class="language-plaintext highlighter-rouge">gem install bundler</code>.</p>
-
-<p>Now you can run Jekyll on your local machine:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
-</code></pre></div></div>
-
-<p>and point your browser to <a href="http://localhost:4000">http://localhost:4000</a> to see Hydejack in action.</p>
-
-<p class="read-more">Continue with <a href="config.md" class="heading flip-title">Config</a></p>]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="project" /><summary type="html"><![CDATA[How you install Hydejack depends on whether you start a new site, or change the theme of an existing site.]]></summary></entry></feed>
+<!-- Continue with [Advanced](advanced.md){:.heading.flip-title}
+{:.read-more} -->]]></content><author><name>이 주언</name><email>will980313@gmail.com</email></author><category term="study" /><category term="ml" /><summary type="html"><![CDATA[This chapters shows how to prepare your Hydejack site for a production build and deployment on 3rd party hosting providers.]]></summary></entry></feed>

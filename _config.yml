@@ -17,7 +17,7 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 인공지능 공부방
@@ -48,13 +48,13 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
-menu:
-  - title:             About
-    url:               /about/
-  - title:             Study
-    url:               /study/
-  - title:             Project
-    url:               /project/
+# menu:
+#   - title:             About
+#     url:               /about/
+#   - title:             Study
+#     url:               /study/
+#   - title:             Project
+#     url:               /project/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -187,7 +187,7 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  post_addons:         [newsletter, related, random, comments] #[about, newsletter, related, random, comments]
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other, comments]

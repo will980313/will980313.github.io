@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!--
+<html lang="ko"><!--
  __  __                __                                     __
 /\ \/\ \              /\ \             __                    /\ \
 \ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
@@ -34,7 +34,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta name="generator" content="Jekyll v4.3.1" />
 <meta property="og:title" content="인공지능 공부방" />
 <meta name="author" content="이 주언" />
-<meta property="og:locale" content="en" />
+<meta property="og:locale" content="ko" />
 <meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
 <meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
 <link rel="canonical" href="http://localhost:4000/404.html" />
@@ -72,7 +72,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta name="generator" content="Hydejack v9.1.6" />
 
 
-<link rel="alternate" href="http://localhost:4000/404.html" hreflang="en">
+<link rel="alternate" href="http://localhost:4000/404.html" hreflang="ko">
 
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="인공지능 공부방" />
 
@@ -93,6 +93,10 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 
 
 
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="/assets/js/sidebar-folder.js"></script>
+
 <script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
 !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
 !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
@@ -107,7 +111,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2022-12-12T01:24:42+09:00',
+    INDEX_KEY: 'index--2022-12-13T00:15:06+09:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -289,46 +293,115 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
     <span class="sr-only">Navigation:</span>
 <ul>
   
+  
+  
     
       
-      <li>
-        <a
-          id="_drawer--opened"
-          href="/about/"
-          class="sidebar-nav-item "
-          
-        >
-          About
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/study/"
-          class="sidebar-nav-item "
-          
-        >
-          Study
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/project/"
-          class="sidebar-nav-item "
-          
-        >
-          Project
-        </a>
-      </li>
     
   
-</ul>
-
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+        
+        
+        <li>
+          
+          <div class="list-wrapper">
+            <a  href="/about/" class="sidebar-nav-item"  >About</a>
+            
+          </div>
+          
+        </li>
+      
+    
+  
+    
+      
+        
+        
+        <li>
+          
+            <input type="checkbox" id="folder-checkbox-11" />
+          
+          <div class="list-wrapper">
+            <a  href="/study/" class="sidebar-nav-item"  >Study</a>
+            
+              <button class="spread-btn" onclick="javascript:spread(11)">
+                <label id="spread-icon-11" class="material-icons">arrow_right</label>
+              </button>
+            
+          </div>
+          
+            <ul class="list-body">
+                <li>
+                  <a class="sidebar-nav-subitem" href="/tag-paper/">Paper</a>
+                </li>
+            
+          
+            
+                <li>
+                  <a class="sidebar-nav-subitem" href="/tag-ml/">ML</a>
+                </li>
+            
+          
+            
+                <li>
+                  <a class="sidebar-nav-subitem" href="/tag-math/">Math</a>
+                </li>
+            
+          
+            
+                <li>
+                  <a class="sidebar-nav-subitem" href="/tag-dl/">DL</a>
+                </li>
+            </ul>
+          
+        </li>
+      
+    
+  
+    
+      
+        
+        
+        <li>
+          
+          <div class="list-wrapper">
+            <a  href="/project/" class="sidebar-nav-item"  >Project</a>
+            
+          </div>
+          
+        </li>
+      
+    
+  
+    
+      
+        
+        
+        <li>
+          
+          <div class="list-wrapper">
+            <a  href="/tags/" class="sidebar-nav-item"  >Tags</a>
+            
+          </div>
+          
+        </li>
+      
+    
+  
+</ul
   </nav>
 
   
