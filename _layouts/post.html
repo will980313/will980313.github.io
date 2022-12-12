@@ -42,10 +42,9 @@ layout: base
 
 <script>
   var toc = document.querySelector('#markdown-toc');
-  if (!toc){
+  if (toc) {
     var pos = toc.offsetTop;
     window.addEventListener('scroll',e=>{
-        console.log(pos)
         if (window.scrollY >= pos){
             toc.classList.add('affix');
         }
