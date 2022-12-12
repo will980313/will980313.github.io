@@ -38,3 +38,20 @@ layout: base
   {% else %}
   {% endcase %}
 {% endfor %}
+
+
+<script>
+  var toc = document.querySelector('#markdown-toc');
+  if (!toc){
+    var pos = toc.offsetTop;
+    window.addEventListener('scroll',e=>{
+        console.log(pos)
+        if (window.scrollY >= pos){
+            toc.classList.add('affix');
+        }
+        else{
+            toc.classList.remove('affix');
+        }
+    });
+  }
+</script>
