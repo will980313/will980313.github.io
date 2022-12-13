@@ -35,9 +35,9 @@
 }
 
 .sidebar-sticky {
-  height: 100%;
-  padding-top: 17%;
+  // height: 100%;
   position: absolute;
+  top:15%;
 }
 
 .sidebar-nav-item {
@@ -65,6 +65,7 @@
 .list-body {
   margin: 0;
   text-align: center;
+  list-style: none;
 }
 
 .sidebar-about {
@@ -96,7 +97,7 @@ input[type=checkbox]{
 input[type=checkbox] ~ ul{
   height: 0;
   transform: scaleY(0);
-  transition: transform .1s ease-out;
+  transition: transform .05s ease-out;
 }
 
 input[type=checkbox]:checked ~ ul{
@@ -104,7 +105,7 @@ input[type=checkbox]:checked ~ ul{
   list-style: none;
   transform-origin: top;
   transform: scaleY(1);
-  transition: transform .1s ease-out;
+  transition: transform .05s ease-out;
 }
 
 //toc
