@@ -106,3 +106,17 @@ input[type=checkbox]:checked ~ ul{
   transform: scaleY(1);
   transition: transform .1s ease-out;
 }
+
+//toc
+
+#markdown-toc li.active > a {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 1000;
+}
+
+#markdown-toc li > a {
+  color: rgba(92, 92, 92, 0.925);
+  font-size: 13px;
+  font-weight: 200;
+}

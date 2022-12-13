@@ -39,7 +39,6 @@ layout: base
   {% endcase %}
 {% endfor %}
 
-
 <script>
   var toc = document.querySelector('#markdown-toc');
   if (toc) {
@@ -52,5 +51,19 @@ layout: base
             toc.classList.remove('affix');
         }
     });
-  }
+
+    document.querySelectorAll('h2[id], h3[id]').forEach((section) => {
+      const id = section.getAttribute('id');
+      var pos_h = section.offsetTop;
+      window.addEventListener('scroll',e=>{
+        if (window.scrollY >= pos_h){
+            toc.querySelectorAll(`li`).forEach((element) => {
+              element.classList.remove('active')
+            });
+            document.querySelector(`ol li a[href="#${id}"]`).parentElement.classList.add('active');
+        }
+      });
+    });
+  };
+
 </script>
