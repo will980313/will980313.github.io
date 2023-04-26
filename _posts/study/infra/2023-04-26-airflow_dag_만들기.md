@@ -10,7 +10,7 @@ sitemap: false
 {:toc}
 
 ## dag 파일 생성
-project 디렉토리 내 dags 디렉토리에 my_first_dag.py 파일 생성 
+project 디렉토리 내 dags 디렉토리에 my_first_dag.py 파일 생성   
 ![](/assets/img/post/airflow_dag_만들기/dag1.png)
 
 ## dag 파일 작성
@@ -72,19 +72,21 @@ with DAG(
 http://localhost:8080 접속  
 
 ![](/assets/img/post/airflow_dag_만들기/dag2.png)  
-dag unpause 후 클릭  
+### dag unpause 후 클릭  
 
 ![](/assets/img/post/airflow_dag_만들기/dag3.png)
-좌측 Task들의 초록색 박스 클릭  
+### 좌측 Task들의 초록색 박스 클릭  
 
 ![](/assets/img/post/airflow_dag_만들기/dag4.png)
-first_task 로그확인
+### first_task 로그확인
 
 ![](/assets/img/post/airflow_dag_만들기/dag5.png)
-second_task 로그확인
+### second_task 로그확인
 
 ![](/assets/img/post/airflow_dag_만들기/dag6.png)
-thrid_task 로그확인
+### thrid_task 로그확인
 
 ![](/assets/img/post/airflow_dag_만들기/dag7.png)
-task 그래프 확인
+### task 그래프 확인
+
+>출처: https://github.com/coder2j/airflow-docker
