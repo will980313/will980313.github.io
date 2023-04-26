@@ -69,24 +69,24 @@ with DAG(
     task1 >> [task2, task3]
 ```
 ## 작동 확인
-http://localhost:8080 접속  
-
+#### http://localhost:8080 접속
+#### dag unpause 후 클릭  
 ![](/assets/img/post/airflow_dag_만들기/dag2.png)  
-### dag unpause 후 클릭  
-
+  
+### 좌측 Task들의 초록색 박스 클릭
 ![](/assets/img/post/airflow_dag_만들기/dag3.png)
-### 좌측 Task들의 초록색 박스 클릭  
-
-![](/assets/img/post/airflow_dag_만들기/dag4.png)
+  
 ### first_task 로그확인
+![](/assets/img/post/airflow_dag_만들기/dag4.png)
 
-![](/assets/img/post/airflow_dag_만들기/dag5.png)
 ### second_task 로그확인
+![](/assets/img/post/airflow_dag_만들기/dag5.png)
 
-![](/assets/img/post/airflow_dag_만들기/dag6.png)
 ### thrid_task 로그확인
+![](/assets/img/post/airflow_dag_만들기/dag6.png)
 
-![](/assets/img/post/airflow_dag_만들기/dag7.png)
 ### task 그래프 확인
+![](/assets/img/post/airflow_dag_만들기/dag7.png)
+
 
 >출처: https://github.com/coder2j/airflow-docker
