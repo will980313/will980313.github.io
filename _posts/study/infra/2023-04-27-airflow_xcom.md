@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Airflow xcom
+title: 3. Airflow xcom
 category: study
 tags: infra
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Airflow dag 만들기
+title: 2. Airflow dag 만들기
 category: study
 tags: infra
 
@@ -10,7 +10,7 @@ sitemap: false
 {:toc}
 
 ## dag 파일 생성
-project 디렉토리 내 dags 디렉토리에 my_first_dag.py 파일 생성   
+#### project 디렉토리 내 dags 디렉토리에 my_first_dag.py 파일 생성   
 ![](/assets/img/post/airflow_dag_만들기/dag1.png)
 
 ## dag 파일 작성
