@@ -41,19 +41,23 @@ docker compose up -d
 ```
 
 ## postgres에 database 추가
-![](/assets/img/post/airflow_postgres/postgres1.png)
+![](/assets/img/post/airflow_postgres/postgres1.png)  
 postgres 도커에 접속
 ```sql
 psql -U airflow airflow
 CREATE DATABASE test;
-```
+```  
 database 추가
 
 ## connections 등록
 http://localhost:8080 접속 후 상당 탭의 Admin -> Connections 클릭
-![](/assets/img/post/airflow_postgres/postgres2.png)
+
+![](/assets/img/post/airflow_postgres/postgres2.png)  
+
 \+ 버튼을 눌러 connection 등록
+
 ![](/assets/img/post/airflow_postgres/postgres3.png)  
+
 host는 서버에서 웹에 접속했을 경우는 localhost, 서버와 다른 곳에서 웹에 접속했을 경우는 서버의 아이피를 입력  
 Test 버튼을 눌러 서버 연결 확인  
 ## dag 파일 작성
@@ -117,5 +121,8 @@ postgres 도커 접속 후 psql 접속
 SELECT * FROM public.dag_runs
 ``` 
 데이터 출력 확인
+  
 ![](/assets/img/post/airflow_postgres/postgres4.png)
 
+
+>출처: https://github.com/coder2j/airflow-docker
