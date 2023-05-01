@@ -35,6 +35,7 @@ redirect_from:
 Computer Vision, Natural Language Processing, Time Series Forecasting
 ## RESEARCH EXPERIENCE
 --- 
+[자세한 프로젝트 설명](/assets/doc/포트폴리오_이주언.pdf)
 >**An Intensity Controlled Review Dataset Construction for Automatic Review Generation**  
 >2020/9 ~ 2020/12  
 >* <http://ki-it.com/xml/32253/32253.pdf>  
