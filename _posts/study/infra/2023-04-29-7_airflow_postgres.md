@@ -122,7 +122,6 @@ SELECT * FROM public.dag_runs
 ``` 
 데이터 출력 확인
   
-![](/assets/img/post/airflow_postgres/postgres4.png)
+![](/assets/img/post/airflow_postgres/postgres4.png)  
 
-
->출처: <https://github.com/coder2j/airflow-docker>
+>출처: <https://github.com/coder2j/airflow-docker>  
