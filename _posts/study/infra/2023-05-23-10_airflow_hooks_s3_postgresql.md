@@ -151,11 +151,23 @@ with DAG(
 
 ## 실행 확인
 airflow 브라우저  
-![](/assets/img/post/airflow_hook/hook_2.png)    
-![](/assets/img/post/airflow_hook/hook_3.png)    
-minio > Object Browser > airflow > orders       
-![](/assets/img/post/airflow_hook/hook_4.png)    
+![](/assets/img/post/airflow_hook/hook_2.png)  
+
+
+![](/assets/img/post/airflow_hook/hook_3.png)  
+
+
+minio > Object Browser > airflow > orders      
+
+
+![](/assets/img/post/airflow_hook/hook_4.png) 
+
+
 저장된 txt파일  
-![](/assets/img/post/airflow_hook/hook_5.png)    
+
+
+![](/assets/img/post/airflow_hook/hook_5.png)  
+
+
   
 >출처: <https://github.com/coder2j/airflow-docker>
