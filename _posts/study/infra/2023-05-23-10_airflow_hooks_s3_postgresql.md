@@ -13,7 +13,7 @@ sitemap: false
 
 ## postgres 설정
 
-[postgres post](/_posts/study/infra/2023-04-29-7_airflow_postgres.md)
+[postgres post](https://will980313.github.io/study/2023-04-29-7_airflow_postgres)
 
 위 포스트를 참고하여 postgres 설정
 
@@ -85,7 +85,7 @@ SELECT * FROM public.orders LIMIT 100;
 
 ## s3 설정
 
-[s3 post](/_posts/study/infra/2023-05-17-9_aws_s3_key_sensor_operator.md)  
+[s3 post](https://will980313.github.io/study/2023-05-17-9_aws_s3_key_sensor_operator)  
 위 포스트를 참고해 s3 연결  
 
 ## dag 작성
@@ -150,6 +150,12 @@ with DAG(
 
 
 ## 실행 확인
-![](/assets/img/post/airflow_s3/s3_9.png)  
-
+airflow 브라우저  
+![](/assets/img/post/airflow_hook/hook_2.png)    
+![](/assets/img/post/airflow_hook/hook_3.png)    
+minio > Object Browser > airflow > orders       
+![](/assets/img/post/airflow_hook/hook_4.png)    
+저장된 txt파일  
+![](/assets/img/post/airflow_hook/hook_5.png)    
+  
 >출처: <https://github.com/coder2j/airflow-docker>
