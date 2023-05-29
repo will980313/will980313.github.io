@@ -53,7 +53,7 @@ docker compose up -d
 
 
 Orders.csv 다운  
-https://github.com/coder2j/airflow-docker/blob/main/data/Orders.csv  
+[Orders.csv](https://github.com/coder2j/airflow-docker/blob/main/data/Orders.csv)
 data 디렉토리로 이동
   
 postgres 도커에 접속 후 postgres에 접속  
