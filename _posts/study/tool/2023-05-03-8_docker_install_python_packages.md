@@ -2,7 +2,7 @@
 layout: post
 title: 8. Airflow docker install python packages
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---

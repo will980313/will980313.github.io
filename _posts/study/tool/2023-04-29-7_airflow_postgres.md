@@ -2,7 +2,7 @@
 layout: post
 title: 7. Airflow postgres
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---

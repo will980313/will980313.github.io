@@ -2,7 +2,7 @@
 layout: post
 title: 3. Airflow xcom
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---

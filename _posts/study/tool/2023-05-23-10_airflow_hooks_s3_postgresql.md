@@ -2,7 +2,7 @@
 layout: post
 title: 10. Airflow Hooks S3 PostgreSQL
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---

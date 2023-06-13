@@ -2,7 +2,7 @@
 layout: post
 title: 6. Airflow cron expression
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---

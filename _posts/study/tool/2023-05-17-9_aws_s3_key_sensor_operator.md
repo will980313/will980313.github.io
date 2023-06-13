@@ -2,7 +2,7 @@
 layout: post
 title: 9. Airflow AWS S3 Key Sensor Operator
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---

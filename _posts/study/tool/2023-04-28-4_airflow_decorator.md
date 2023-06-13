@@ -2,7 +2,7 @@
 layout: post
 title: 4. Airflow decorateor
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---

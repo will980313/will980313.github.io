@@ -2,7 +2,7 @@
 layout: post
 title: 2. Airflow dag 만들기
 category: study
-tags: infra
+tags: tool
 
 sitemap: false
 ---
